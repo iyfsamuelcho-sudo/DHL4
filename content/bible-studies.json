@@ -1,0 +1,57 @@
+{
+  "studies": [
+    {
+      "id": "bs-john3",
+      "title": "Born again: Jesus and Nicodemus",
+      "passage": "John 3:1–21",
+      "level": "Beginner",
+      "summary": "A religious leader comes to Jesus at night with questions.",
+      "steps": [
+        "Read the passage twice, slowly.",
+        "What does Nicodemus already believe about Jesus?",
+        "What does Jesus say is necessary?",
+        "What does John 3:16 say about God's love?",
+        "What question would you ask Jesus?"
+      ]
+    },
+    {
+      "id": "bs-luke15",
+      "title": "The lost son",
+      "passage": "Luke 15:11–32",
+      "level": "Beginner",
+      "summary": "A story about a father's welcome, told by Jesus.",
+      "steps": [
+        "Read the story out loud.",
+        "What did the younger son expect when he returned?",
+        "How did the father respond?",
+        "Which son do you relate to more, and why?"
+      ]
+    },
+    {
+      "id": "bs-rom5",
+      "title": "Peace with God",
+      "passage": "Romans 5:1–11",
+      "level": "Intermediate",
+      "summary": "Paul explains what believers have through Jesus.",
+      "steps": [
+        "List everything Paul says we have.",
+        "What does verse 8 show about God's love?",
+        "How can suffering produce hope (verses 3–5)?",
+        "Share one verse with a friend this week."
+      ]
+    },
+    {
+      "id": "bs-eph2",
+      "title": "Saved by grace",
+      "passage": "Ephesians 2:1–10",
+      "level": "Intermediate",
+      "summary": "Before, but God, and now: a before-and-after picture.",
+      "steps": [
+        "Describe life 'before' in verses 1–3.",
+        "What changes with 'But God' in verse 4?",
+        "Why can no one boast?",
+        "What 'good works' might God have prepared for you?"
+      ]
+    }
+  ]
+}

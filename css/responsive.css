@@ -1,0 +1,106 @@
+/* ==========================================================================
+   DHL — responsive.css : mobile-first breakpoints
+   Base styles target ~360px. Tested at 360, 390, 768, 1024 and 1440px.
+   ========================================================================== */
+
+/* ≥ 600px: two-column grids */
+@media (min-width: 600px) {
+  .area-grid, .path-grid, .card-grid, .feed-grid, .video-grid, .ask-grid, .cert-list, .social-hub { grid-template-columns: repeat(2, 1fr); }
+  .here-line a { display: block; }
+  .lesson { grid-template-columns: 2.75rem 1fr auto; align-items: center; }
+  .lesson-actions { grid-column: auto; flex-direction: column; align-items: stretch; }
+  .event-card { grid-template-columns: 5.5rem 1fr; padding: 1.5rem; gap: 1.5rem; }
+  .menu-inner { grid-template-columns: repeat(2, 1fr); }
+  .feed-card.is-featured { grid-column: 1 / -1; }
+}
+
+/* ≥ 768px: tablets */
+@media (min-width: 768px) {
+  .start-btn { display: inline-flex; }
+  .split { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .split--wide-left { grid-template-columns: 1.4fr 1fr; }
+  .next-inner { grid-template-columns: 1fr auto; }
+  .pathway-head { grid-template-columns: auto 1fr minmax(14rem, 18rem); }
+  .footer-inner { grid-template-columns: 2fr repeat(2, 1fr); }
+  .feed-card.is-featured { flex-direction: row; }
+  .feed-card.is-featured .feed-media { flex: 0 0 55%; aspect-ratio: auto; min-height: 18rem; }
+  .feed-card.is-featured .feed-body { padding: 1.75rem; justify-content: center; }
+  .feed-card.is-featured h3 { font-size: var(--step-2); }
+  .ai-panel { inset: auto 1.25rem 1.25rem auto; width: 25rem; height: min(40rem, calc(100vh - 6.5rem)); border-radius: var(--r-lg); border: 1px solid var(--line); box-shadow: 0 16px 50px rgba(13,36,64,.3); overflow: hidden; }
+  .chat-open { overflow: auto; }
+  .ladder { grid-template-columns: repeat(5, 1fr); align-items: end; }
+  .rung:nth-child(1) a { min-height: 11rem; } .rung:nth-child(2) a { min-height: 12.5rem; } .rung:nth-child(3) a { min-height: 14rem; }
+  .rung:nth-child(4) a { min-height: 15.5rem; } .rung:nth-child(5) a { min-height: 17rem; }
+  .rung a { border-left-width: 1px; border-top: 6px solid var(--rc); align-content: start; }
+  .section--navy .rung a { border-left-color: rgba(255,255,255,.12); border-top-color: var(--rc); }
+  .video-card.is-featured { grid-column: 1 / -1; flex-direction: row; }
+  .video-card.is-featured .video-thumb { flex: 0 0 58%; }
+  .video-card.is-featured .video-body { padding: 1.75rem; justify-content: center; }
+  .video-card.is-featured h3 { font-size: var(--step-2); }
+  .bridge { grid-template-columns: repeat(7, 1fr); }
+  .bridge li { flex-direction: column; align-items: flex-start; min-height: 8.5rem; font-size: .95rem; }
+}
+
+/* ≥ 1024px: laptops */
+@media (min-width: 1024px) {
+  .hero-grid { grid-template-columns: 1.05fr 1fr; gap: 3rem; }
+  .area-grid { grid-template-columns: repeat(5, 1fr); }
+  .path-grid { grid-template-columns: repeat(4, 1fr); }
+  .card-grid, .feed-grid, .video-grid { grid-template-columns: repeat(3, 1fr); }
+  .card-grid--2 { grid-template-columns: repeat(2, 1fr); }
+  .social-hub { grid-template-columns: repeat(5, 1fr); }
+  .ask-grid { grid-template-columns: repeat(2, 1fr); }
+  .menu-inner { grid-template-columns: repeat(4, 1fr) 1.2fr; padding-top: 2.5rem; }
+  .footer-inner { grid-template-columns: 2fr repeat(4, 1fr); }
+
+  /* Journey: a horizontal metro line */
+  .metro--horizontal { grid-template-columns: repeat(var(--n, 7), 1fr); }
+  .metro--horizontal .station { grid-template-columns: 1fr; gap: .75rem; padding-bottom: 0; padding-right: .75rem; }
+  .metro--horizontal .station::before { left: 0; right: 0; top: calc(1.5rem - 4px); bottom: auto; width: auto; height: 8px; }
+  .metro--horizontal .station:first-child::before { left: 1.5rem; top: calc(1.5rem - 4px); }
+  .metro--horizontal .station:last-child::before { right: auto; width: 1.5rem; height: 8px; }
+  .metro--horizontal .station-body { padding-top: 0; }
+}
+
+/* ≥ 1180px: show the quick navigation in the header */
+@media (min-width: 1180px) {
+  .quick-nav { display: block; }
+  .brand { margin-right: 1rem; }
+  .quick-nav { margin-right: auto; }
+}
+
+/* Motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* Learning hub layouts */
+@media (min-width: 600px) {
+  .area-tiles, .steps-3 { grid-template-columns: repeat(2, 1fr); }
+  .fit-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .cat-grid { grid-template-columns: repeat(3, 1fr); }
+  .program-grid { grid-template-columns: repeat(3, 1fr) !important; }
+  .area-tiles { grid-template-columns: repeat(3, 1fr); }
+  .steps-3 { grid-template-columns: repeat(3, 1fr); }
+  .fit-grid { grid-template-columns: repeat(4, 1fr); }
+  .filter-bar { grid-template-columns: minmax(16rem, 22rem) 1fr; align-items: start; }
+  .filter-bar .chips + .chips { grid-column: 2; }
+  .course-layout { grid-template-columns: minmax(0, 1fr) 20rem; align-items: start; }
+  .course-side { position: sticky; top: calc(var(--header-h) + 1rem); }
+}
+@media (max-width: 599px) {
+  .lesson-item summary { grid-template-columns: 2.25rem 1fr auto; }
+  .li-time { display: none; }
+  .lesson-content { padding-left: 1.25rem; }
+  .cert-foot { grid-template-columns: 1fr; gap: .5rem; }
+}
+@media (min-width: 900px) {
+  .page-hero-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 3rem; }
+}
+@media (min-width: 700px) { .field-row { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1100px) {
+  .admin-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); }
+  .admin-preview { position: sticky; top: calc(var(--header-h) + 1rem); }
+}

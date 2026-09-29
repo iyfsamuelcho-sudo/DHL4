@@ -1,0 +1,49 @@
+{
+  "videos": [
+    {
+      "sample": true,
+      "videoId": "",
+      "title": "Welcome to DHL",
+      "date": "2026-09-27",
+      "category": "message",
+      "description": "From connection to commission.",
+      "thumbnail": "assets/images/thumb-youtube.svg"
+    },
+    {
+      "sample": true,
+      "videoId": "",
+      "title": "Gospel course, lesson 1: God who made you",
+      "date": "2026-09-20",
+      "category": "study",
+      "description": "Genesis 1 and Acts 17.",
+      "thumbnail": "assets/images/thumb-study.svg"
+    },
+    {
+      "sample": true,
+      "videoId": "",
+      "title": "A sample testimony",
+      "date": "2026-09-15",
+      "category": "testimony",
+      "description": "How community led to faith.",
+      "thumbnail": "assets/images/thumb-testimony.svg"
+    },
+    {
+      "sample": true,
+      "videoId": "",
+      "title": "Korean at the hospital",
+      "date": "2026-09-08",
+      "category": "korea",
+      "description": "Ten useful phrases.",
+      "thumbnail": "assets/images/thumb-korea.svg"
+    },
+    {
+      "sample": true,
+      "videoId": "",
+      "title": "Servant leadership in Mark 10",
+      "date": "2026-09-01",
+      "category": "leadership",
+      "description": "What makes a leader great?",
+      "thumbnail": "assets/images/thumb-announcement.svg"
+    }
+  ]
+}

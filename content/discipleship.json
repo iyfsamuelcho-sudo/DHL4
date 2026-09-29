@@ -1,0 +1,211 @@
+{
+  "path": [
+    {
+      "id": "d-foundation",
+      "title": "Gospel Foundation",
+      "text": "Be clear on the good news.",
+      "href": "gospel.html#course"
+    },
+    {
+      "id": "d-assurance",
+      "title": "Assurance",
+      "text": "Know you belong to God.",
+      "topic": "assurance"
+    },
+    {
+      "id": "d-bible",
+      "title": "Bible",
+      "text": "Read and study daily.",
+      "topic": "word"
+    },
+    {
+      "id": "d-prayer",
+      "title": "Prayer",
+      "text": "Talk with God honestly.",
+      "topic": "prayer"
+    },
+    {
+      "id": "d-fellowship",
+      "title": "Fellowship",
+      "text": "Belong to a group.",
+      "topic": "fellowship"
+    },
+    {
+      "id": "d-evangelism",
+      "title": "Evangelism",
+      "text": "Share what you know.",
+      "topic": "evangelism"
+    },
+    {
+      "id": "d-service",
+      "title": "Service",
+      "text": "Serve others with your gifts.",
+      "topic": "serving"
+    }
+  ],
+  "topics": [
+    {
+      "id": "assurance",
+      "title": "Assurance of Salvation",
+      "status": "draft",
+      "refs": [
+        "1 John 5:13",
+        "John 10:28",
+        "Romans 8:38–39"
+      ],
+      "summary": "John wrote so that believers may know they have eternal life. Assurance rests on God's promise.",
+      "questions": [
+        "Why did John write, according to 1 John 5:13?",
+        "What can separate us from God's love?"
+      ]
+    },
+    {
+      "id": "word",
+      "title": "The Word of God",
+      "status": "draft",
+      "refs": [
+        "Psalm 119:105",
+        "Matthew 4:4",
+        "James 1:22"
+      ],
+      "summary": "Disciples read, understand and obey God's word, which guides their lives.",
+      "questions": [
+        "What does James 1:22 warn against?",
+        "What reading habit could you start this week?"
+      ]
+    },
+    {
+      "id": "prayer",
+      "title": "Prayer",
+      "status": "draft",
+      "refs": [
+        "Matthew 6:9–13",
+        "Philippians 4:6–7",
+        "1 Thessalonians 5:17"
+      ],
+      "summary": "Prayer is talking with God. Jesus gave his disciples a pattern to follow.",
+      "questions": [
+        "What does Philippians 4:6 say to do with worry?",
+        "Which line of the Lord's Prayer do you need most?"
+      ]
+    },
+    {
+      "id": "fellowship",
+      "title": "Fellowship",
+      "status": "draft",
+      "refs": [
+        "Acts 2:42",
+        "Hebrews 10:24–25",
+        "1 John 1:7"
+      ],
+      "summary": "The first Christians devoted themselves to teaching, fellowship, breaking bread and prayer.",
+      "questions": [
+        "What four things are listed in Acts 2:42?",
+        "Who could you encourage this week?"
+      ]
+    },
+    {
+      "id": "church",
+      "title": "The Church",
+      "status": "draft",
+      "refs": [
+        "Ephesians 4:11–16",
+        "1 Corinthians 12:12–27",
+        "Matthew 16:18"
+      ],
+      "summary": "The church is described as the body of Christ, with each member needed.",
+      "questions": [
+        "What picture does 1 Corinthians 12 use?",
+        "What part do you play?"
+      ]
+    },
+    {
+      "id": "grace",
+      "title": "Grace",
+      "status": "draft",
+      "refs": [
+        "Ephesians 2:8",
+        "2 Corinthians 12:9",
+        "Titus 2:11–12"
+      ],
+      "summary": "Grace is God's undeserved favor. It saves us, and it also teaches us how to live.",
+      "questions": [
+        "What does grace teach us in Titus 2:12?",
+        "Where do you need God's grace today?"
+      ]
+    },
+    {
+      "id": "flesh-spirit",
+      "title": "Flesh and Spirit",
+      "status": "draft",
+      "refs": [
+        "Galatians 5:16–25",
+        "Romans 8:5–6"
+      ],
+      "summary": "Paul contrasts the works of the flesh with the fruit of the Spirit and calls believers to walk by the Spirit.",
+      "questions": [
+        "List the fruit of the Spirit.",
+        "What does it mean to 'walk by the Spirit'?"
+      ]
+    },
+    {
+      "id": "christian-life",
+      "title": "Christian Life",
+      "status": "draft",
+      "refs": [
+        "Romans 12:1–2",
+        "Colossians 3:12–17"
+      ],
+      "summary": "Disciples offer their whole lives to God and are changed by the renewing of their minds.",
+      "questions": [
+        "What does Romans 12:2 say to avoid?",
+        "Which quality in Colossians 3:12 do you want to grow in?"
+      ]
+    },
+    {
+      "id": "serving",
+      "title": "Serving Others",
+      "status": "draft",
+      "refs": [
+        "Mark 10:45",
+        "Galatians 5:13",
+        "1 Peter 4:10"
+      ],
+      "summary": "Jesus came to serve. His followers use their gifts to serve one another.",
+      "questions": [
+        "What did Jesus come to do, according to Mark 10:45?",
+        "What gift could you use to serve?"
+      ]
+    },
+    {
+      "id": "evangelism",
+      "title": "Evangelism",
+      "status": "draft",
+      "refs": [
+        "Matthew 28:19–20",
+        "1 Peter 3:15",
+        "Acts 1:8"
+      ],
+      "summary": "Jesus sent his followers to make disciples of all nations, sharing the hope they have with gentleness.",
+      "questions": [
+        "How should we answer according to 1 Peter 3:15?",
+        "Who in your life could you share with?"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Spiritual Growth",
+      "status": "draft",
+      "refs": [
+        "2 Peter 3:18",
+        "Philippians 1:6",
+        "Hebrews 5:12–14"
+      ],
+      "summary": "Believers are called to grow in grace and knowledge. God finishes the work he starts.",
+      "questions": [
+        "What does Philippians 1:6 promise?",
+        "What is one sign of growth you've seen?"
+      ]
+    }
+  ]
+}

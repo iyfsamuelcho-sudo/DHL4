@@ -1,0 +1,81 @@
+{
+  "topics": [
+    {
+      "id": "content",
+      "title": "Creating Christian content",
+      "summary": "Plan posts that serve a real need, point to Jesus and invite a next step.",
+      "tip": "Every post should answer: what do I want someone to do after seeing this?"
+    },
+    {
+      "id": "ai-bible",
+      "title": "AI for Bible study",
+      "summary": "Use AI tools to find cross-references and questions, and always check them against Scripture and a mentor.",
+      "tip": "Treat AI answers as a starting point for study, never the final word."
+    },
+    {
+      "id": "short-video",
+      "title": "Short-form video",
+      "summary": "Reels, Shorts and TikToks of 30–60 seconds with one clear message.",
+      "tip": "Hook in the first 3 seconds, one idea, one call to action."
+    },
+    {
+      "id": "online-study",
+      "title": "Online Bible study",
+      "summary": "Run a simple, repeatable online study that people can join from anywhere in Korea.",
+      "tip": "Send the passage the day before so people can read ahead."
+    },
+    {
+      "id": "zoom",
+      "title": "Zoom ministry",
+      "summary": "Host warm online meetings: welcome people, use breakout rooms and follow up.",
+      "tip": "Have a co-host who greets newcomers by name in the chat."
+    },
+    {
+      "id": "social",
+      "title": "Social media evangelism",
+      "summary": "Move from comments to conversations to invitations, respectfully.",
+      "tip": "Reply to every sincere comment, and invite people to the community, not just to 'like'."
+    },
+    {
+      "id": "translation",
+      "title": "Translation",
+      "summary": "Make content available in English, Tagalog and Korean.",
+      "tip": "Have a native speaker review translations before publishing."
+    },
+    {
+      "id": "community-building",
+      "title": "Digital community building",
+      "summary": "Build group chats that feel safe, friendly and purposeful.",
+      "tip": "Write simple group rules and appoint two moderators."
+    },
+    {
+      "id": "website",
+      "title": "Website ministry",
+      "summary": "Keep a simple website like this one up to date as your ministry's home base.",
+      "tip": "Add one new post each week; the feed sorts itself."
+    },
+    {
+      "id": "online-discipleship",
+      "title": "Online discipleship",
+      "summary": "Walk with someone one-to-one using messages, calls and shared reading plans.",
+      "tip": "Online is the bridge: plan an in-person meeting as soon as you can."
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Content planning worksheet",
+      "file": "assets/downloads/content-planning-worksheet.txt",
+      "text": "Plan a month of posts around one theme."
+    },
+    {
+      "title": "Online Bible study host checklist",
+      "file": "assets/downloads/online-bible-study-checklist.txt",
+      "text": "Before, during and after your Zoom study."
+    },
+    {
+      "title": "Group chat guidelines template",
+      "file": "assets/downloads/group-chat-guidelines.txt",
+      "text": "Simple rules for a safe, welcoming group chat."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News Admin | DHL – Diaspora Hub for Leaders</title>
+  <meta name="description" content="DHL News Admin.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0d2440">
+  <link rel="canonical" href="https://your-username.github.io/your-repository/admin.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DHL – Diaspora Hub for Leaders">
+  <meta property="og:title" content="News Admin | DHL – Diaspora Hub for Leaders">
+  <meta property="og:description" content="DHL News Admin.">
+  <meta property="og:url" content="https://your-username.github.io/your-repository/admin.html">
+  <meta property="og:image" content="https://your-username.github.io/your-repository/assets/images/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icons/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/content.js" defer></script>
+  <script src="js/data-loader.js" data-extra="js/admin.js" defer></script>
+</head>
+<body data-page="admin">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header">
+    <noscript><nav class="header-inner" aria-label="Main"><a class="brand" href="index.html">DHL</a> <a href="pathways.html">Pathways</a> <a href="gospel.html">Gospel</a> <a href="live-in-korea.html">Life in Korea</a> <a href="community.html">Community</a> <a href="contact.html">Contact</a></nav></noscript>
+  </header>
+
+  <main id="main">
+    <section class="page-hero admin-hero">
+      <div class="wrap">
+        <h1>DHL News Admin</h1>
+        <p class="lede">Create and publish news for the DHL website.</p>
+      </div>
+    </section>
+    <section class="section admin-section">
+      <div class="wrap">
+
+        <div id="view-setup" class="admin-panel" hidden>
+          <h2>The News Admin isn't connected yet</h2>
+          <p>To publish from this page, deploy the News Admin Worker and put its address in <code>CONFIG.admin.endpoint</code> in <code>js/content.js</code>. The README, section 18, walks you through it step by step.</p>
+        </div>
+
+        <div id="view-signin" class="admin-panel admin-signin" hidden>
+          <h2>Sign in to continue</h2>
+          <p>Only DHL administrators can publish. Sign in with the GitHub account the site owner added to the News Admin list.</p>
+          <div class="admin-notice" id="signin-notice" role="alert" hidden></div>
+          <a class="btn btn-primary" id="signin-btn" href="#"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>Sign in with GitHub</a>
+        </div>
+
+        <div id="view-editor" hidden>
+          <div class="admin-bar">
+            <p class="admin-user" id="admin-user"></p>
+            <button type="button" class="btn btn-quiet btn-small" id="signout-btn">Sign out</button>
+          </div>
+          <div class="admin-grid">
+            <div class="admin-panel">
+              <h2>Create new post</h2>
+        <form id="post-form" class="admin-form" novalidate>
+          <div class="admin-notice" id="form-notice" tabindex="-1" role="status" hidden></div>
+          <div class="field" id="field-title">
+              <label for="f-title">Title <span class="req">(required)</span></label>
+              <input id="f-title" name="title" type="text" maxlength="150" required aria-describedby="err-title">
+              <p class="field-error" id="err-title" hidden></p>
+            </div>
+          <div class="field-row">
+            <div class="field" id="field-date">
+              <label for="f-date">Date <span class="req">(required)</span></label><p class="field-hint" id="hint-date">Posts are sorted by this date, newest first.</p>
+              <input id="f-date" name="date" type="date" required aria-describedby="hint-date err-date">
+              <p class="field-error" id="err-date" hidden></p>
+            </div>
+            <div class="field" id="field-type">
+              <label for="f-type">Post type <span class="req">(required)</span></label>
+              <select id="f-type" name="type" aria-describedby="err-type"></select>
+              <p class="field-error" id="err-type" hidden></p>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field" id="field-categorySelect">
+              <label for="f-categorySelect">Category <span class="req">(required)</span></label>
+              <select id="f-categorySelect" name="categorySelect" required aria-describedby="err-categorySelect"></select>
+              <p class="field-error" id="err-categorySelect" hidden></p>
+            </div>
+            <div class="field" id="field-categoryOther">
+              <label for="f-categoryOther">New category name <span class="req">(required)</span></label>
+              <input id="f-categoryOther" name="categoryOther" type="text" maxlength="40" aria-describedby="err-categoryOther">
+              <p class="field-error" id="err-categoryOther" hidden></p>
+            </div>
+          </div>
+          <div class="field" id="field-youtube">
+              <label for="f-youtube">YouTube video link <span class="req">(required)</span></label><p class="field-hint" id="hint-youtube">The video plays on the DHL site when visitors click the post.</p>
+              <input id="f-youtube" name="youtube" type="url" inputmode="url" placeholder="https://www.youtube.com/watch?v=…" aria-describedby="hint-youtube err-youtube">
+              <p class="field-error" id="err-youtube" hidden></p>
+            </div>
+          <div class="field" id="field-description">
+              <label for="f-description">Short description <span class="req">(required)</span></label><p class="field-hint" id="hint-description">One or two sentences shown on the post card.</p>
+              <textarea id="f-description" name="description" rows="3" maxlength="400" required aria-describedby="hint-description err-description"></textarea><p class="counter" id="count-description" aria-live="off"></p>
+              <p class="field-error" id="err-description" hidden></p>
+            </div>
+          <div class="field" id="field-content">
+              <label for="f-content">Full content <span class="req">(required unless you add an external URL)</span></label><p class="field-hint" id="hint-content">The full article. Leave a blank line between paragraphs. Start a line with &gt; to highlight a Bible verse, start lines with - for a list, and wrap words in **double stars** for bold. Links starting with https:// become clickable.</p>
+              <textarea id="f-content" name="content" rows="12" aria-describedby="hint-content err-content"></textarea>
+              <p class="field-error" id="err-content" hidden></p>
+            </div>
+          <div class="field-row">
+            <div class="field" id="field-author">
+              <label for="f-author">Author <span class="opt">(optional)</span></label>
+              <input id="f-author" name="author" type="text" maxlength="80" placeholder="@Samuel Cho" aria-describedby="err-author">
+              <p class="field-error" id="err-author" hidden></p>
+            </div>
+            <div class="field" id="field-scripture">
+              <label for="f-scripture">Scripture reference <span class="opt">(optional)</span></label><p class="field-hint" id="hint-scripture">Shown on the article with a link to read the passage.</p>
+              <input id="f-scripture" name="scripture" type="text" maxlength="80" placeholder="Romans 8:28" aria-describedby="hint-scripture err-scripture">
+              <p class="field-error" id="err-scripture" hidden></p>
+            </div>
+          </div>
+          <div class="field" id="field-image">
+              <label for="f-image">Featured image URL <span class="opt">(optional)</span></label><p class="field-hint" id="hint-image">A photo already on the site, like assets/images/community.jpg, or a full https:// image link. Leave empty to use a placeholder.</p>
+              <input id="f-image" name="image" type="text" inputmode="url" placeholder="assets/images/photo.jpg or https://…" aria-describedby="hint-image err-image">
+              <p class="field-error" id="err-image" hidden></p>
+            </div>
+          <div class="field" id="field-url">
+              <label for="f-url">External URL <span class="opt">(optional)</span></label><p class="field-hint" id="hint-url">Optional link for readers, such as a Facebook post, a registration form or a page on this site.</p>
+              <input id="f-url" name="url" type="text" inputmode="url" placeholder="https://… or events.html" aria-describedby="hint-url err-url">
+              <p class="field-error" id="err-url" hidden></p>
+            </div>
+          <div class="field field-check">
+            <label><input type="checkbox" name="pinned"> Keep this post at the top of the feed (pinned)</label>
+          </div>
+          <div class="btn-row admin-actions">
+            <button type="submit" class="btn btn-mango" id="publish-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 20 4l-6 16-3-7-7-1Z"/></svg>Publish post</button>
+            <button type="button" class="btn btn-quiet" id="clear-btn">Clear form</button>
+          </div>
+        </form>
+            </div>
+            <aside class="admin-preview" aria-labelledby="preview-title">
+              <h2 id="preview-title">Preview</h2>
+              <p class="field-hint">How the post card will look in Latest ministry content.</p>
+              <ul class="feed-grid" id="preview-card" aria-hidden="true"></ul>
+              <h3>Article</h3>
+              <div class="article-body preview-article" id="preview-article"></div>
+            </aside>
+          </div>
+        </div>
+
+        <div id="view-done" class="admin-panel admin-done" hidden>
+          <h2 id="done-heading" tabindex="-1"><span class="done-check" aria-hidden="true">✓</span> Post published successfully!</h2>
+          <p><strong id="done-title"></strong> has been added to DHL Ministry Content.</p>
+          <p>GitHub Pages may take a few minutes to update. If you don't see the post yet, wait a moment and refresh.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" id="done-view" href="#" target="_blank" rel="noopener">View the post</a>
+            <button type="button" class="btn btn-mango" id="another-btn">Create another post</button>
+            <a class="text-link" id="done-commit" href="#" target="_blank" rel="noopener" hidden>See the change on GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>

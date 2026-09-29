@@ -1,0 +1,1301 @@
+{
+  "courses": [
+    {
+      "id": "gospel-foundations",
+      "status": "open",
+      "category": "Bible & Gospel",
+      "level": "Beginner",
+      "hours": 2,
+      "title": "Gospel Foundations",
+      "description": "Walk through the message of the Bible from creation to new life in Christ, reading the key passages for yourself.",
+      "objectives": [
+        "Explain why people need salvation, using Scripture",
+        "Describe who Jesus is and what he did on the cross",
+        "Understand repentance and faith",
+        "Read and discuss key Gospel passages"
+      ],
+      "modules": [
+        {
+          "title": "God and people",
+          "lessons": [
+            {
+              "id": "gc1",
+              "title": "God who made you",
+              "minutes": 15,
+              "body": [
+                "The Bible begins with God as Creator. People are made in his image and made to know him."
+              ],
+              "refs": [
+                "Genesis 1:26–27",
+                "Acts 17:24–28"
+              ],
+              "questions": [
+                "What does it mean to be made in God's image?",
+                "According to Acts 17:27, how near is God?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "gc2",
+              "title": "What went wrong",
+              "minutes": 15,
+              "body": [
+                "Humanity turned away from God. The Bible calls this sin and describes its result as death."
+              ],
+              "refs": [
+                "Genesis 3",
+                "Romans 3:23",
+                "Romans 6:23"
+              ],
+              "questions": [
+                "What changed after Genesis 3?",
+                "What two things are contrasted in Romans 6:23?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "Jesus Christ",
+          "lessons": [
+            {
+              "id": "gc3",
+              "title": "Who is Jesus?",
+              "minutes": 20,
+              "body": [
+                "The Gospels introduce Jesus as the Christ, the Son of God, who came to live among us."
+              ],
+              "refs": [
+                "John 1:1–14",
+                "Mark 1:1",
+                "Mark 8:27–29"
+              ],
+              "questions": [
+                "What did people say about Jesus in Mark 8?",
+                "Who do you say he is?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "gc4",
+              "title": "The cross and forgiveness",
+              "minutes": 20,
+              "body": [
+                "The New Testament teaches that Jesus died for sins and rose again, so people can be forgiven."
+              ],
+              "refs": [
+                "Isaiah 53:4–6",
+                "1 Peter 2:24",
+                "Colossians 1:13–14"
+              ],
+              "questions": [
+                "How does Isaiah 53 describe the one who suffers?",
+                "What do we have in Christ, according to Colossians 1:14?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "Our response",
+          "lessons": [
+            {
+              "id": "gc5",
+              "title": "Repentance and faith",
+              "minutes": 15,
+              "body": [
+                "Jesus called people to repent and believe the good news. Salvation is received by faith as a gift."
+              ],
+              "refs": [
+                "Mark 1:15",
+                "Acts 20:21",
+                "Ephesians 2:8–9"
+              ],
+              "questions": [
+                "What two responses does Mark 1:15 call for?",
+                "Why is salvation called a gift?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "gc6",
+              "title": "A new life",
+              "minutes": 15,
+              "body": [
+                "Those who follow Jesus begin a new life, growing together with other believers."
+              ],
+              "refs": [
+                "2 Corinthians 5:17",
+                "John 10:10",
+                "Acts 2:42"
+              ],
+              "questions": [
+                "What does 'new creation' mean to you?",
+                "What next step will you take?"
+              ],
+              "draft": true
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "According to Romans 6:23, what is the gift of God?",
+          "options": [
+            "Eternal life through Jesus Christ our Lord",
+            "Wealth and success",
+            "A long life",
+            "The reward for good works"
+          ],
+          "answer": 0,
+          "explain": "Romans 6:23: \"the gift of God is eternal life through Jesus Christ our Lord.\""
+        },
+        {
+          "q": "Ephesians 2:8 says we are saved by grace through…",
+          "options": [
+            "works",
+            "faith",
+            "the law",
+            "tradition"
+          ],
+          "answer": 1,
+          "explain": "Ephesians 2:8: \"For by grace are ye saved through faith.\""
+        },
+        {
+          "q": "In John 3, who came to Jesus at night?",
+          "options": [
+            "Peter",
+            "Zacchaeus",
+            "Nicodemus",
+            "Paul"
+          ],
+          "answer": 2,
+          "explain": "John 3:1–2 tells of Nicodemus, a Pharisee, coming to Jesus by night."
+        },
+        {
+          "q": "Which two responses does Jesus call for in Mark 1:15?",
+          "options": [
+            "Pray and fast",
+            "Repent and believe the gospel",
+            "Give and serve",
+            "Obey and work harder"
+          ],
+          "answer": 1,
+          "explain": "Mark 1:15: \"repent ye, and believe the gospel.\""
+        },
+        {
+          "q": "2 Corinthians 5:17 says that anyone in Christ is…",
+          "options": [
+            "free from all trouble",
+            "a new creature",
+            "a prophet",
+            "perfect in every way"
+          ],
+          "answer": 1,
+          "explain": "2 Corinthians 5:17: \"if any man be in Christ, he is a new creature.\""
+        }
+      ]
+    },
+    {
+      "id": "discipleship-first-steps",
+      "status": "open",
+      "category": "Discipleship",
+      "level": "Beginner",
+      "hours": 2,
+      "title": "First Steps of Discipleship",
+      "description": "Build the foundations of Christian life: assurance, the Word, prayer, fellowship, service and sharing your faith.",
+      "objectives": [
+        "Understand the basis of assurance of salvation",
+        "Start daily habits of Bible reading and prayer",
+        "Belong to a fellowship",
+        "Take a first step in serving and sharing your faith"
+      ],
+      "modules": [
+        {
+          "title": "Firm foundations",
+          "lessons": [
+            {
+              "id": "assurance",
+              "title": "Assurance of Salvation",
+              "minutes": 15,
+              "body": [
+                "John wrote so that believers may know they have eternal life. Assurance rests on God's promise."
+              ],
+              "refs": [
+                "1 John 5:13",
+                "John 10:28",
+                "Romans 8:38–39"
+              ],
+              "questions": [
+                "Why did John write, according to 1 John 5:13?",
+                "What can separate us from God's love?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "word",
+              "title": "The Word of God",
+              "minutes": 15,
+              "body": [
+                "Disciples read, understand and obey God's word, which guides their lives."
+              ],
+              "refs": [
+                "Psalm 119:105",
+                "Matthew 4:4",
+                "James 1:22"
+              ],
+              "questions": [
+                "What does James 1:22 warn against?",
+                "What reading habit could you start this week?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "Daily life with God",
+          "lessons": [
+            {
+              "id": "prayer",
+              "title": "Prayer",
+              "minutes": 15,
+              "body": [
+                "Prayer is talking with God. Jesus gave his disciples a pattern to follow."
+              ],
+              "refs": [
+                "Matthew 6:9–13",
+                "Philippians 4:6–7",
+                "1 Thessalonians 5:17"
+              ],
+              "questions": [
+                "What does Philippians 4:6 say to do with worry?",
+                "Which line of the Lord's Prayer do you need most?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "fellowship",
+              "title": "Fellowship",
+              "minutes": 15,
+              "body": [
+                "The first Christians devoted themselves to teaching, fellowship, breaking bread and prayer."
+              ],
+              "refs": [
+                "Acts 2:42",
+                "Hebrews 10:24–25",
+                "1 John 1:7"
+              ],
+              "questions": [
+                "What four things are listed in Acts 2:42?",
+                "Who could you encourage this week?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "Living it out",
+          "lessons": [
+            {
+              "id": "serving",
+              "title": "Serving Others",
+              "minutes": 15,
+              "body": [
+                "Jesus came to serve. His followers use their gifts to serve one another."
+              ],
+              "refs": [
+                "Mark 10:45",
+                "Galatians 5:13",
+                "1 Peter 4:10"
+              ],
+              "questions": [
+                "What did Jesus come to do, according to Mark 10:45?",
+                "What gift could you use to serve?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "evangelism",
+              "title": "Evangelism",
+              "minutes": 15,
+              "body": [
+                "Jesus sent his followers to make disciples of all nations, sharing the hope they have with gentleness."
+              ],
+              "refs": [
+                "Matthew 28:19–20",
+                "1 Peter 3:15",
+                "Acts 1:8"
+              ],
+              "questions": [
+                "How should we answer according to 1 Peter 3:15?",
+                "Who in your life could you share with?"
+              ],
+              "draft": true
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "Acts 2:42 says the first believers devoted themselves to the apostles' teaching, fellowship, breaking of bread, and…",
+          "options": [
+            "fasting",
+            "prayers",
+            "singing",
+            "travel"
+          ],
+          "answer": 1,
+          "explain": "Acts 2:42 lists \"doctrine and fellowship, and in breaking of bread, and in prayers.\""
+        },
+        {
+          "q": "Why did John write, according to 1 John 5:13?",
+          "options": [
+            "So that you may know that you have eternal life",
+            "To record church rules",
+            "To describe the end of the world",
+            "To list the apostles"
+          ],
+          "answer": 0,
+          "explain": "1 John 5:13: \"that ye may know that ye have eternal life.\""
+        },
+        {
+          "q": "James 1:22 says to be doers of the word, and not…",
+          "options": [
+            "teachers only",
+            "hearers only",
+            "readers only",
+            "leaders only"
+          ],
+          "answer": 1,
+          "explain": "James 1:22: \"be ye doers of the word, and not hearers only.\""
+        },
+        {
+          "q": "According to Mark 10:45, the Son of man came not to be ministered unto, but to…",
+          "options": [
+            "rule",
+            "judge",
+            "minister",
+            "teach the law"
+          ],
+          "answer": 2,
+          "explain": "Mark 10:45: \"not to be ministered unto, but to minister.\""
+        },
+        {
+          "q": "In Matthew 28:19, what did Jesus send his disciples to do?",
+          "options": [
+            "Build a temple",
+            "Teach all nations",
+            "Stay in Jerusalem",
+            "Write the Bible"
+          ],
+          "answer": 1,
+          "explain": "Matthew 28:19: \"Go ye therefore, and teach all nations.\""
+        }
+      ]
+    },
+    {
+      "id": "mind-understanding-heart",
+      "status": "open",
+      "category": "Mind Education",
+      "level": "Beginner",
+      "hours": 2,
+      "title": "Understanding the Heart",
+      "description": "Learn how thoughts and desires shape our choices, and how to build self-control, healthy relationships and a renewed mind.",
+      "objectives": [
+        "Explain how thoughts influence the heart and actions",
+        "Recognize how temptation grows",
+        "Practice self-control and listening",
+        "Overcome isolation by building healthy relationships"
+      ],
+      "modules": [
+        {
+          "title": "The world of the heart",
+          "lessons": [
+            {
+              "id": "mind-heart",
+              "title": "The heart and its thoughts",
+              "minutes": 15,
+              "body": [
+                "The Bible treats the heart as the center of a person's thoughts, desires and choices. What happens in the heart shapes what we say and do."
+              ],
+              "refs": [
+                "Proverbs 4:23",
+                "Mark 7:21–23"
+              ],
+              "questions": [
+                "Why does Proverbs 4:23 say to guard the heart?",
+                "According to Mark 7:21–23, where do evil actions begin?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "mind-thoughts",
+              "title": "Where thoughts lead",
+              "minutes": 15,
+              "body": [
+                "James describes a chain: desire, then temptation, then sin. Genesis 3 shows how a single thought, accepted, changed Eve's view of what God had said."
+              ],
+              "refs": [
+                "James 1:14–15",
+                "Genesis 3:1–6"
+              ],
+              "questions": [
+                "What are the steps in James 1:14–15?",
+                "What thought did Eve accept in Genesis 3?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "A disciplined mind",
+          "lessons": [
+            {
+              "id": "mind-selfcontrol",
+              "title": "Self-control",
+              "minutes": 15,
+              "body": [
+                "A person without self-control is compared to a city without walls. Self-control is listed as part of the fruit of the Spirit."
+              ],
+              "refs": [
+                "Proverbs 25:28",
+                "Galatians 5:22–23"
+              ],
+              "questions": [
+                "What does a city without walls lack?",
+                "In which area of life do you most need self-control?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "mind-renewing",
+              "title": "Renewing the mind",
+              "minutes": 20,
+              "body": [
+                "Paul calls believers to be transformed by the renewing of their minds, and to think about what is true, honest, just and pure."
+              ],
+              "refs": [
+                "Romans 12:2",
+                "Philippians 4:8"
+              ],
+              "questions": [
+                "What does Romans 12:2 say not to be conformed to?",
+                "Which item in Philippians 4:8 do you want to think about more?"
+              ],
+              "draft": true
+            }
+          ]
+        },
+        {
+          "title": "Relationships",
+          "lessons": [
+            {
+              "id": "mind-isolation",
+              "title": "Overcoming isolation",
+              "minutes": 15,
+              "body": [
+                "Living far from home can be lonely. Scripture says two are better than one, because when one falls, the other can help them up."
+              ],
+              "refs": [
+                "Ecclesiastes 4:9–10",
+                "Hebrews 10:24–25"
+              ],
+              "questions": [
+                "Who lifts you up when you fall?",
+                "Who could you encourage this week?"
+              ],
+              "draft": true
+            },
+            {
+              "id": "mind-listening",
+              "title": "Listening and receiving advice",
+              "minutes": 20,
+              "body": [
+                "The wise listen to advice. James teaches us to be quick to hear, slow to speak and slow to anger."
+              ],
+              "refs": [
+                "Proverbs 12:15",
+                "James 1:19"
+              ],
+              "questions": [
+                "Why is it hard to accept advice?",
+                "Whose advice do you trust, and why?"
+              ],
+              "draft": true
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "Proverbs 4:23 says to keep your heart with all diligence, because…",
+          "options": [
+            "out of it are the issues of life",
+            "it is always right",
+            "no one else can see it",
+            "feelings never change"
+          ],
+          "answer": 0,
+          "explain": "Proverbs 4:23: \"for out of it are the issues of life.\""
+        },
+        {
+          "q": "According to James 1:14, a person is tempted when…",
+          "options": [
+            "they are too busy",
+            "they are drawn away of their own lust and enticed",
+            "they read the Bible",
+            "they are alone at night"
+          ],
+          "answer": 1,
+          "explain": "James 1:14: \"every man is tempted, when he is drawn away of his own lust, and enticed.\""
+        },
+        {
+          "q": "Proverbs 25:28 compares a person without rule over their own spirit to…",
+          "options": [
+            "a tree without roots",
+            "a city broken down, without walls",
+            "a ship without a sail",
+            "a house without a door"
+          ],
+          "answer": 1,
+          "explain": "Proverbs 25:28: \"like a city that is broken down, and without walls.\""
+        },
+        {
+          "q": "Ecclesiastes 4:9–10 says two are better than one because…",
+          "options": [
+            "if one falls, the other can lift him up",
+            "two people earn more money",
+            "people should never be alone",
+            "it is a law of nature"
+          ],
+          "answer": 0,
+          "explain": "Ecclesiastes 4:10: \"if they fall, the one will lift up his fellow.\""
+        },
+        {
+          "q": "Romans 12:2 says to be transformed by…",
+          "options": [
+            "hard work",
+            "the renewing of your mind",
+            "a new environment",
+            "good luck"
+          ],
+          "answer": 1,
+          "explain": "Romans 12:2: \"be ye transformed by the renewing of your mind.\""
+        }
+      ]
+    },
+    {
+      "id": "korean-survival-1",
+      "status": "open",
+      "category": "Korean Language",
+      "level": "Beginner",
+      "hours": 3,
+      "title": "Survival Korean 1",
+      "description": "Read Hangul and use the Korean you need for greetings, shopping, numbers and getting around.",
+      "objectives": [
+        "Read Hangul syllable blocks",
+        "Greet people politely",
+        "Use both Korean number systems correctly",
+        "Ask for prices, items and directions"
+      ],
+      "modules": [
+        {
+          "title": "Hangul",
+          "lessons": [
+            {
+              "id": "ks-hangul",
+              "title": "Meet Hangul",
+              "minutes": 30,
+              "body": [
+                "Hangul is the Korean alphabet, created in the 15th century under King Sejong. It has 14 basic consonants and 10 basic vowels.",
+                "Letters are written together in syllable blocks. For example, 한 is made of ㅎ (h) + ㅏ (a) + ㄴ (n).",
+                "Practice: 안녕하세요 is five blocks: 안 + 녕 + 하 + 세 + 요. Try reading it slowly, one block at a time."
+              ]
+            },
+            {
+              "id": "ks-blocks",
+              "title": "Reading syllable blocks",
+              "minutes": 30,
+              "body": [
+                "A block starts with a consonant, followed by a vowel: 가 (ga), 나 (na), 다 (da). Some blocks add a final consonant underneath: 각 (gak), 산 (san).",
+                "When a syllable starts with a vowel sound, the silent consonant ㅇ holds the first place: 아 (a), 오 (o), 우 (u).",
+                "Practice: read 가 나 다 라 마 바 사 아 자 차 카 타 파 하."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Everyday speech",
+          "lessons": [
+            {
+              "id": "ks-polite",
+              "title": "Greetings and polite speech",
+              "minutes": 25,
+              "body": [
+                "Korean changes its endings to show politeness. The everyday polite ending is -요: 괜찮아요 (it's okay), 좋아요 (it's good).",
+                "The formal ending -습니다 / -ㅂ니다 is used at work, in announcements and with people you should show respect to: 감사합니다 (thank you).",
+                "Useful greetings: 안녕하세요 (hello), 감사합니다 (thank you), 죄송합니다 (I'm sorry), 수고하셨습니다 (thank you for your hard work, said after work)."
+              ]
+            },
+            {
+              "id": "ks-store",
+              "title": "At the store",
+              "minutes": 25,
+              "body": [
+                "이거 얼마예요? How much is this?",
+                "이거 주세요. Please give me this one.",
+                "카드 돼요? Can I pay by card?",
+                "봉투 주세요. A bag, please."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Numbers and directions",
+          "lessons": [
+            {
+              "id": "ks-numbers",
+              "title": "Two number systems",
+              "minutes": 35,
+              "body": [
+                "Korean uses two sets of numbers. Sino-Korean numbers are used for money, dates, phone numbers and minutes: 일 (1), 이 (2), 삼 (3), 사 (4), 오 (5), 육 (6), 칠 (7), 팔 (8), 구 (9), 십 (10).",
+                "Native Korean numbers are used for counting things, age and hours on the clock: 하나 (1), 둘 (2), 셋 (3), 넷 (4), 다섯 (5), 여섯 (6), 일곱 (7), 여덟 (8), 아홉 (9), 열 (10).",
+                "Example: 오천 원 is 5,000 won (Sino-Korean)."
+              ]
+            },
+            {
+              "id": "ks-directions",
+              "title": "Getting around",
+              "minutes": 25,
+              "body": [
+                "지하철역이 어디예요? Where is the subway station?",
+                "화장실이 어디예요? Where is the restroom?",
+                "(place)까지 가 주세요. Please take me to (place). Useful in a taxi.",
+                "여기서 내려요. I'm getting off here."
+              ]
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "How many basic consonants does Hangul have?",
+          "options": [
+            "10",
+            "14",
+            "19",
+            "24"
+          ],
+          "answer": 1,
+          "explain": "Hangul has 14 basic consonants and 10 basic vowels."
+        },
+        {
+          "q": "Which number system is used for prices, like 5,000 won?",
+          "options": [
+            "Native Korean",
+            "Sino-Korean",
+            "Either one",
+            "Neither; English numbers are used"
+          ],
+          "answer": 1,
+          "explain": "Money uses Sino-Korean numbers: 오천 원."
+        },
+        {
+          "q": "What does 이거 주세요 mean?",
+          "options": [
+            "How much is this?",
+            "Please give me this one.",
+            "Where is this?",
+            "I don't want this."
+          ],
+          "answer": 1,
+          "explain": "이거 주세요 means \"Please give me this one.\""
+        },
+        {
+          "q": "Which ending makes everyday speech polite?",
+          "options": [
+            "-요",
+            "-다",
+            "-야",
+            "-지"
+          ],
+          "answer": 0,
+          "explain": "-요 is the everyday polite ending, as in 괜찮아요."
+        },
+        {
+          "q": "Which consonant is silent at the start of a syllable?",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅇ",
+            "ㅎ"
+          ],
+          "answer": 2,
+          "explain": "ㅇ is silent at the start of a syllable, as in 아."
+        }
+      ]
+    },
+    {
+      "id": "settling-in-korea",
+      "status": "open",
+      "category": "Living in Korea",
+      "level": "Beginner",
+      "hours": 1.5,
+      "title": "Settling in Korea",
+      "description": "The essentials for your first months in Korea: documents, transport, healthcare, daily routines and where to get help.",
+      "objectives": [
+        "Know the residence card and visa basics",
+        "Get around with public transport",
+        "Use the healthcare system",
+        "Know who to call for help"
+      ],
+      "modules": [
+        {
+          "title": "Documents",
+          "lessons": [
+            {
+              "id": "sk-card",
+              "title": "Your residence card",
+              "minutes": 15,
+              "body": [
+                "If you will stay in Korea for more than 90 days, you must register as a foreign resident within 90 days of entering Korea. You'll receive a residence card.",
+                "Book an appointment at your local immigration office through Hi Korea (hikorea.go.kr). Carry your card with you, and report your new address when you move, within the legal deadline.",
+                "Rules change. Always check Hi Korea or call 1345 for your own situation."
+              ]
+            },
+            {
+              "id": "sk-visa",
+              "title": "Your visa and your stay",
+              "minutes": 15,
+              "body": [
+                "Your visa type decides what activities you may do in Korea, such as study or a specific kind of work.",
+                "Apply for an extension or change before your permitted stay ends. Late applications, or working outside what your visa allows, can lead to fines or other penalties.",
+                "For advice on your own case, ask the Immigration Contact Center (1345) or a qualified professional."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Daily life",
+          "lessons": [
+            {
+              "id": "sk-transport",
+              "title": "Getting around",
+              "minutes": 10,
+              "body": [
+                "Buy a T-money card at a convenience store or subway station and top it up with cash. It works on buses, subways and many taxis.",
+                "Naver Map and KakaoMap give the most reliable directions in Korea.",
+                "Tap your card when getting on and off buses to receive transfer discounts."
+              ]
+            },
+            {
+              "id": "sk-health",
+              "title": "Staying healthy",
+              "minutes": 15,
+              "body": [
+                "Many foreign residents who stay six months or more are enrolled in National Health Insurance. Check your status at nhis.or.kr.",
+                "Visit a local clinic (의원) for everyday illness and bring your residence card. Pharmacies (약국) fill prescriptions.",
+                "In an emergency, call 119."
+              ]
+            },
+            {
+              "id": "sk-trash",
+              "title": "Trash and recycling",
+              "minutes": 10,
+              "body": [
+                "Household trash goes in volume-based trash bags (종량제 봉투), sold at convenience stores.",
+                "Food waste and recyclables are separated. Rules differ by district, so ask your neighbors or building manager."
+              ]
+            },
+            {
+              "id": "sk-help",
+              "title": "Getting help",
+              "minutes": 10,
+              "body": [
+                "112: police. 119: fire and ambulance. 109: suicide prevention counseling.",
+                "1345: Immigration Contact Center (multilingual). 1577-1366: Danuri helpline for multicultural families.",
+                "You're not alone. The DHL community and mentors are here to help."
+              ]
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "What number do you call for fire and ambulance in Korea?",
+          "options": [
+            "112",
+            "119",
+            "911",
+            "1345"
+          ],
+          "answer": 1,
+          "explain": "119 is for fire and ambulance; 112 is for police."
+        },
+        {
+          "q": "Which number is the multilingual Immigration Contact Center?",
+          "options": [
+            "1345",
+            "1350",
+            "109",
+            "112"
+          ],
+          "answer": 0,
+          "explain": "1345 is the Immigration Contact Center."
+        },
+        {
+          "q": "What is the common transit card in Korea called?",
+          "options": [
+            "Octopus",
+            "T-money",
+            "Suica",
+            "Oyster"
+          ],
+          "answer": 1,
+          "explain": "T-money works on buses, subways and many taxis."
+        },
+        {
+          "q": "Which map apps give the most reliable directions in Korea?",
+          "options": [
+            "Naver Map and KakaoMap",
+            "Only paper maps",
+            "Any app works the same",
+            "None; ask a taxi driver"
+          ],
+          "answer": 0,
+          "explain": "Naver Map and KakaoMap are the most reliable in Korea."
+        },
+        {
+          "q": "Where does household trash go?",
+          "options": [
+            "Any plastic bag",
+            "Volume-based trash bags (종량제 봉투)",
+            "Recycling bins",
+            "The street corner"
+          ],
+          "answer": 1,
+          "explain": "Household trash goes in volume-based trash bags sold at convenience stores."
+        }
+      ]
+    },
+    {
+      "id": "servant-leadership",
+      "status": "open",
+      "category": "Leadership",
+      "level": "Intermediate",
+      "hours": 3,
+      "title": "Servant Leadership Basics",
+      "description": "Learn to lead the way Jesus did: character first, serving others, mentoring and handling conflict.",
+      "objectives": [
+        "Describe servant leadership from Scripture",
+        "Understand the character a leader needs",
+        "Begin mentoring one person",
+        "Handle conflict biblically"
+      ],
+      "modules": [
+        {
+          "title": "The heart of a leader",
+          "lessons": [
+            {
+              "id": "servant",
+              "title": "Servant Leadership",
+              "minutes": 20,
+              "body": [
+                "Jesus defined greatness as serving. Leaders go first in humility.",
+                "Practical assignment: Serve someone in your group this week without being asked, then reflect on what you learned."
+              ],
+              "refs": [
+                "Mark 10:42–45",
+                "John 13:1–17"
+              ],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "biblical",
+              "title": "Biblical Leadership",
+              "minutes": 20,
+              "body": [
+                "Character before skill: what Scripture asks of those who lead God's people.",
+                "Practical assignment: Read 1 Timothy 3 with a mentor and choose one area of character to work on."
+              ],
+              "refs": [
+                "1 Timothy 3:1–7",
+                "Titus 1:5–9"
+              ],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        },
+        {
+          "title": "Leading others",
+          "lessons": [
+            {
+              "id": "paul",
+              "title": "Paul's Leadership",
+              "minutes": 20,
+              "body": [
+                "How Paul trained others, entrusted responsibility and kept going through hardship.",
+                "Practical assignment: Map Paul's 2 Timothy 2:2 chain onto your own life: who taught you, and whom will you teach?"
+              ],
+              "refs": [
+                "Acts 20:17–35",
+                "2 Timothy 2:2"
+              ],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "mentoring",
+              "title": "Mentoring",
+              "minutes": 20,
+              "body": [
+                "Walking with one person over time, the heart of multiplication.",
+                "Practical assignment: Meet with one younger believer three times this month."
+              ],
+              "refs": [
+                "2 Timothy 2:2",
+                "Titus 2:3–5"
+              ],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        },
+        {
+          "title": "Leading groups",
+          "lessons": [
+            {
+              "id": "small-group",
+              "title": "Small Group Leadership",
+              "minutes": 20,
+              "body": [
+                "Planning a meeting, asking good questions and caring for members.",
+                "Practical assignment: Co-lead one small group session with an experienced leader."
+              ],
+              "refs": [
+                "Acts 2:42–47",
+                "Hebrews 10:24–25"
+              ],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Management",
+              "minutes": 20,
+              "body": [
+                "Handling disagreement biblically, quickly and with grace.",
+                "Practical assignment: Study Matthew 18:15–17 and role-play a difficult conversation with your mentor."
+              ],
+              "refs": [
+                "Matthew 18:15–17",
+                "Ephesians 4:26–32"
+              ],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "In Mark 10:43, what must a person be to be great among Jesus' followers?",
+          "options": [
+            "The most educated",
+            "Your minister (servant)",
+            "The oldest",
+            "The most gifted"
+          ],
+          "answer": 1,
+          "explain": "Mark 10:43: \"whosoever will be great among you, shall be your minister.\""
+        },
+        {
+          "q": "In 2 Timothy 2:2, what should faithful people be able to do?",
+          "options": [
+            "Teach others also",
+            "Lead worship",
+            "Raise money",
+            "Travel far"
+          ],
+          "answer": 0,
+          "explain": "2 Timothy 2:2: \"faithful men, who shall be able to teach others also.\""
+        },
+        {
+          "q": "According to Matthew 18:15, what is the first step when someone sins against you?",
+          "options": [
+            "Tell the church",
+            "Go and tell him his fault between you and him alone",
+            "Ignore it",
+            "Post about it online"
+          ],
+          "answer": 1,
+          "explain": "Matthew 18:15 begins with a private conversation."
+        },
+        {
+          "q": "What is DHL's core leadership question?",
+          "options": [
+            "How many people follow this person?",
+            "Can this person now help another person grow?",
+            "How long has this person been a Christian?",
+            "Can this person speak in public?"
+          ],
+          "answer": 1,
+          "explain": "DHL measures leadership by whether someone can help another person grow."
+        },
+        {
+          "q": "1 Timothy 3:1–7 focuses mostly on a leader's…",
+          "options": [
+            "wealth",
+            "age",
+            "character",
+            "education"
+          ],
+          "answer": 2,
+          "explain": "Most of the qualities listed are about character and conduct."
+        }
+      ]
+    },
+    {
+      "id": "online-ministry-host",
+      "status": "open",
+      "category": "Ministry & Service",
+      "level": "Intermediate",
+      "hours": 2,
+      "title": "Online Ministry Host",
+      "description": "Serve by creating content, hosting online Bible studies and building safe online communities that lead to real relationships.",
+      "objectives": [
+        "Plan content with a clear next step",
+        "Host a welcoming online Bible study",
+        "Moderate a safe group chat",
+        "Move people from online to real-life community"
+      ],
+      "modules": [
+        {
+          "title": "Content",
+          "lessons": [
+            {
+              "id": "content",
+              "title": "Creating Christian content",
+              "minutes": 20,
+              "body": [
+                "Plan posts that serve a real need, point to Jesus and invite a next step.",
+                "Tip: Every post should answer: what do I want someone to do after seeing this?"
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "social",
+              "title": "Social media evangelism",
+              "minutes": 20,
+              "body": [
+                "Move from comments to conversations to invitations, respectfully.",
+                "Tip: Reply to every sincere comment, and invite people to the community, not just to 'like'."
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        },
+        {
+          "title": "Hosting",
+          "lessons": [
+            {
+              "id": "online-study",
+              "title": "Online Bible study",
+              "minutes": 20,
+              "body": [
+                "Run a simple, repeatable online study that people can join from anywhere in Korea.",
+                "Tip: Send the passage the day before so people can read ahead."
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "zoom",
+              "title": "Zoom ministry",
+              "minutes": 20,
+              "body": [
+                "Host warm online meetings: welcome people, use breakout rooms and follow up.",
+                "Tip: Have a co-host who greets newcomers by name in the chat."
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "lessons": [
+            {
+              "id": "community-building",
+              "title": "Digital community building",
+              "minutes": 20,
+              "body": [
+                "Build group chats that feel safe, friendly and purposeful.",
+                "Tip: Write simple group rules and appoint two moderators."
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            },
+            {
+              "id": "online-discipleship",
+              "title": "Online discipleship",
+              "minutes": 20,
+              "body": [
+                "Walk with someone one-to-one using messages, calls and shared reading plans.",
+                "Tip: Online is the bridge: plan an in-person meeting as soon as you can."
+              ],
+              "refs": [],
+              "questions": [],
+              "draft": false
+            }
+          ]
+        }
+      ],
+      "passMark": 80,
+      "quiz": [
+        {
+          "q": "Every post should answer which question?",
+          "options": [
+            "How many likes will this get?",
+            "What do I want someone to do after seeing this?",
+            "Is this trending?",
+            "How long is it?"
+          ],
+          "answer": 1,
+          "explain": "Each post should lead to a clear next step."
+        },
+        {
+          "q": "When should you send the passage for an online Bible study?",
+          "options": [
+            "During the meeting",
+            "The day before",
+            "A month before",
+            "Never"
+          ],
+          "answer": 1,
+          "explain": "Sending it the day before lets people read ahead."
+        },
+        {
+          "q": "What is the co-host's key job in a Zoom meeting?",
+          "options": [
+            "Greet newcomers by name",
+            "Mute everyone",
+            "Record the meeting",
+            "Share their screen"
+          ],
+          "answer": 0,
+          "explain": "A co-host who welcomes newcomers makes people feel they belong."
+        },
+        {
+          "q": "What helps a group chat stay safe and welcoming?",
+          "options": [
+            "No rules at all",
+            "Simple rules and two moderators",
+            "Only leaders can post",
+            "Adding as many people as possible"
+          ],
+          "answer": 1,
+          "explain": "Simple rules and two moderators keep a group healthy."
+        },
+        {
+          "q": "Complete the DHL principle: \"Online is not the destination. Online is the…\"",
+          "options": [
+            "future",
+            "bridge",
+            "church",
+            "classroom"
+          ],
+          "answer": 1,
+          "explain": "Online is the bridge to real relationships."
+        }
+      ]
+    },
+    {
+      "id": "romans-study",
+      "status": "planned",
+      "category": "Bible & Gospel",
+      "level": "Intermediate",
+      "hours": 6,
+      "title": "Romans: The Gospel Explained",
+      "description": "A chapter-by-chapter study of Paul's letter to the Romans."
+    },
+    {
+      "id": "mind-relationships",
+      "status": "planned",
+      "category": "Mind Education",
+      "level": "Intermediate",
+      "hours": 4,
+      "title": "Mind Education 2: Relationships",
+      "description": "Communication, empathy and forgiveness in family, work and church."
+    },
+    {
+      "id": "korean-survival-2",
+      "status": "planned",
+      "category": "Korean Language",
+      "level": "Intermediate",
+      "hours": 6,
+      "title": "Survival Korean 2",
+      "description": "Conversations at work, the hospital and government offices."
+    },
+    {
+      "id": "topik-prep",
+      "status": "planned",
+      "category": "Korean Language",
+      "level": "Advanced",
+      "hours": 10,
+      "title": "TOPIK I Preparation",
+      "description": "Reading and listening practice for TOPIK levels 1 and 2."
+    },
+    {
+      "id": "working-in-korea",
+      "status": "planned",
+      "category": "Living in Korea",
+      "level": "Intermediate",
+      "hours": 3,
+      "title": "Working in Korea",
+      "description": "Contracts, workplace culture, rights and career planning."
+    },
+    {
+      "id": "small-group-leader",
+      "status": "planned",
+      "category": "Leadership",
+      "level": "Advanced",
+      "hours": 5,
+      "title": "Small Group Leader",
+      "description": "Plan and lead a small group, with a supervised practicum."
+    },
+    {
+      "id": "discipleship-2",
+      "status": "planned",
+      "category": "Discipleship",
+      "level": "Intermediate",
+      "hours": 4,
+      "title": "Growing Disciple",
+      "description": "Grace, the Spirit and spiritual growth."
+    },
+    {
+      "id": "ministry-practicum",
+      "status": "planned",
+      "category": "Ministry & Service",
+      "level": "Advanced",
+      "hours": 8,
+      "title": "Ministry Practicum",
+      "description": "Apply what you've learned in real ministry with a mentor."
+    }
+  ]
+}

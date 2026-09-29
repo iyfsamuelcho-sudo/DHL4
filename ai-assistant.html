@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DHL AI Ministry Assistant | DHL – Diaspora Hub for Leaders</title>
+  <meta name="description" content="Ask the DHL AI Ministry Assistant about the Gospel, discipleship, leadership and life in Korea. Answers come from DHL-approved resources, with sources.">
+  <meta name="theme-color" content="#0d2440">
+  <link rel="canonical" href="https://your-username.github.io/your-repository/ai-assistant.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DHL – Diaspora Hub for Leaders">
+  <meta property="og:title" content="DHL AI Ministry Assistant | DHL – Diaspora Hub for Leaders">
+  <meta property="og:description" content="Ask the DHL AI Ministry Assistant about the Gospel, discipleship, leadership and life in Korea. Answers come from DHL-approved resources, with sources.">
+  <meta property="og:url" content="https://your-username.github.io/your-repository/ai-assistant.html">
+  <meta property="og:image" content="https://your-username.github.io/your-repository/assets/images/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icons/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/content.js" defer></script>
+  <script src="js/data-loader.js" defer></script>
+</head>
+<body data-page="ai">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header">
+    <noscript><nav class="header-inner" aria-label="Main"><a class="brand" href="index.html">DHL</a> <a href="pathways.html">Pathways</a> <a href="gospel.html">Gospel</a> <a href="live-in-korea.html">Life in Korea</a> <a href="community.html">Community</a> <a href="contact.html">Contact</a></nav></noscript>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>DHL AI Ministry Assistant</h1>
+        <p class="lede">Ask a question and get an answer from DHL's resources, with sources you can check. For personal or difficult questions, talk to a mentor.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split split--wide-left">
+        <div class="chat-shell" id="ai-chat-inline"></div>
+        <div>
+          <h2>How it works</h2>
+          <ol class="rag-flow">
+            <li>You ask a question, in English, Filipino, Taglish or Korean.</li>
+            <li>DHL AI checks what the Bible itself says first, with its context.</li>
+            <li>Where it helps, it explains the interpretation or theological connection.</li>
+            <li>When you ask about Pastor Ock Soo Park's teaching, it explains his teaching separately, from his books.</li>
+            <li>Sources and Bible references are shown so you can read them yourself.</li>
+            <li class="mentor">If it isn't sure, or the question is personal, it recommends a DHL mentor.</li>
+          </ol>
+          <p class="notice" style="margin-top:1.5rem">DHL AI is an educational assistant. It does not replace personal Bible study, pastoral guidance, or a human mentor.</p>
+          <p class="fine-print">This version runs in demo mode: it searches DHL study notes on this website and shows the best match. No AI service is connected yet, and your questions are not stored.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section section--white" aria-labelledby="src-title">
+      <div class="wrap">
+        <div class="section-head"><h2 id="src-title">Two sources, kept separate</h2><p>DHL AI always tells you which source an answer comes from.</p></div>
+        <ul class="card-grid card-grid--2">
+          <li class="topic-card"><h3>The Holy Bible</h3><p>The primary source. Answers start from what the text says, in its historical and literary context, with cross-references from Genesis to Revelation.</p><p class="refs">You'll see phrases like “In the Bible…” and “In this passage…”</p></li>
+          <li class="topic-card"><h3>Rev. Ock Soo Park's books</h3><p>Teaching resources that explain Scripture, including <em>The Secret of Forgiveness of Sin and Being Born Again</em>, <em>Who Are You Who Is Dragging Me?</em> and teachings on the Tabernacle.</p><p class="refs">You'll see phrases like “Pastor Ock Soo Park explains this as…”</p></li>
+        </ul>
+        <p style="margin-top:1.5rem;max-width:44rem">Pastor Park's teaching is never presented as a quotation from the Bible. If the exact text of a book isn't in DHL's knowledge base, the assistant says so rather than guessing. The books are copyrighted, so the assistant gives summaries, explanations and short quotations, never whole chapters.</p>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="kb-title">
+      <div class="wrap split">
+        <div><h2 id="kb-title">DHL knowledge base</h2><p>The live assistant will draw only on materials DHL has approved and has permission to use. It retrieves relevant passages rather than reproducing whole books.</p></div>
+        <pre class="kb-tree" aria-label="Knowledge base folders">knowledge/
+├── bible/
+├── ock-soo-park/
+├── gospel/
+├── discipleship/
+├── leadership/
+├── diaspora/
+├── digital-ministry/
+└── approved-resources/</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>

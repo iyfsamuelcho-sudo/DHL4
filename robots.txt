@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /knowledge/
+Disallow: /admin.html
+Disallow: /backend-example/
+
+Sitemap: https://your-username.github.io/your-repository/sitemap.xml

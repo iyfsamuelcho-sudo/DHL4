@@ -1,0 +1,186 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Gospel Foundation",
+      "goal": "Understand the Gospel clearly.",
+      "courses": [
+        {
+          "id": "a1-gospel",
+          "title": "Beginner Gospel Course",
+          "lessons": 6,
+          "format": "Self-paced online",
+          "href": "gospel.html#course"
+        },
+        {
+          "id": "a1-share",
+          "title": "Explaining the Gospel simply",
+          "lessons": 3,
+          "format": "Small group"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Discipleship Foundation",
+      "goal": "Learn the basic Christian life.",
+      "courses": [
+        {
+          "id": "a2-path",
+          "title": "Seven steps of discipleship",
+          "lessons": 7,
+          "format": "Self-paced + mentor",
+          "href": "discipleship.html#path"
+        },
+        {
+          "id": "a2-habits",
+          "title": "Daily habits: Word and prayer",
+          "lessons": 4,
+          "format": "Small group"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Ministry Skills",
+      "goal": "Serve others with practical ministry skills.",
+      "courses": [
+        {
+          "id": "a3-bible",
+          "title": "Leading a Bible study",
+          "lessons": 4,
+          "format": "Workshop"
+        },
+        {
+          "id": "a3-evangelism",
+          "title": "Evangelism",
+          "lessons": 3,
+          "format": "Workshop + practice"
+        },
+        {
+          "id": "a3-counsel",
+          "title": "Counseling basics",
+          "lessons": 3,
+          "format": "Workshop"
+        },
+        {
+          "id": "a3-group",
+          "title": "Small group leadership",
+          "lessons": 4,
+          "format": "Workshop"
+        },
+        {
+          "id": "a3-comm",
+          "title": "Communication",
+          "lessons": 3,
+          "format": "Workshop"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Diaspora Leadership",
+      "goal": "Lead across cultures and multiply leaders.",
+      "courses": [
+        {
+          "id": "a4-cross",
+          "title": "Cross-cultural ministry",
+          "lessons": 4,
+          "format": "Seminar"
+        },
+        {
+          "id": "a4-migrant",
+          "title": "Migrant ministry",
+          "lessons": 3,
+          "format": "Seminar"
+        },
+        {
+          "id": "a4-filipino",
+          "title": "Filipino ministry in Korea",
+          "lessons": 3,
+          "format": "Seminar"
+        },
+        {
+          "id": "a4-lead",
+          "title": "Leadership and mentoring",
+          "lessons": 4,
+          "format": "Mentored"
+        },
+        {
+          "id": "a4-mission",
+          "title": "Mission",
+          "lessons": 3,
+          "format": "Seminar"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Practicum",
+      "goal": "Apply what you have learned in real ministry.",
+      "practicum": true,
+      "courses": [
+        {
+          "id": "a5-study",
+          "title": "Lead a Bible study",
+          "lessons": 1,
+          "format": "Supervised practice"
+        },
+        {
+          "id": "a5-care",
+          "title": "Care for 3–5 people",
+          "lessons": 1,
+          "format": "Supervised practice"
+        },
+        {
+          "id": "a5-group",
+          "title": "Lead a small group",
+          "lessons": 1,
+          "format": "Supervised practice"
+        },
+        {
+          "id": "a5-content",
+          "title": "Create ministry content",
+          "lessons": 1,
+          "format": "Supervised practice"
+        },
+        {
+          "id": "a5-mentor",
+          "title": "Mentor a younger believer",
+          "lessons": 1,
+          "format": "Supervised practice"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "DHL Gospel Certificate",
+      "after": "Level 1",
+      "requires": "Complete the Gospel course and explain the Gospel to your mentor."
+    },
+    {
+      "title": "DHL Discipleship Certificate",
+      "after": "Level 2",
+      "requires": "Complete the discipleship steps and join a small group for three months."
+    },
+    {
+      "title": "DHL Ministry Leader Certificate",
+      "after": "Level 3",
+      "requires": "Complete the ministry skills courses and co-lead a small group."
+    },
+    {
+      "title": "DHL Diaspora Mission Leader Certificate",
+      "after": "Levels 4–5",
+      "requires": "Complete diaspora leadership training and the practicum, with a mentor's evaluation."
+    }
+  ],
+  "recognitionSteps": [
+    "Training",
+    "Practical assignment",
+    "Mentoring",
+    "Evaluation",
+    "Recognition",
+    "Commissioning"
+  ]
+}

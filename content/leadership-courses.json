@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "id": "servant",
+      "title": "Servant Leadership",
+      "refs": [
+        "Mark 10:42–45",
+        "John 13:1–17"
+      ],
+      "summary": "Jesus defined greatness as serving. Leaders go first in humility.",
+      "assignment": "Serve someone in your group this week without being asked, then reflect on what you learned."
+    },
+    {
+      "id": "biblical",
+      "title": "Biblical Leadership",
+      "refs": [
+        "1 Timothy 3:1–7",
+        "Titus 1:5–9"
+      ],
+      "summary": "Character before skill: what Scripture asks of those who lead God's people.",
+      "assignment": "Read 1 Timothy 3 with a mentor and choose one area of character to work on."
+    },
+    {
+      "id": "paul",
+      "title": "Paul's Leadership",
+      "refs": [
+        "Acts 20:17–35",
+        "2 Timothy 2:2"
+      ],
+      "summary": "How Paul trained others, entrusted responsibility and kept going through hardship.",
+      "assignment": "Map Paul's 2 Timothy 2:2 chain onto your own life: who taught you, and whom will you teach?"
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "refs": [
+        "Colossians 4:6",
+        "James 1:19"
+      ],
+      "summary": "Listening well, speaking clearly and communicating across languages.",
+      "assignment": "Give a 5-minute talk to your small group and ask for two pieces of feedback."
+    },
+    {
+      "id": "counseling",
+      "title": "Counseling Basics",
+      "refs": [
+        "Galatians 6:1–2",
+        "Romans 12:15"
+      ],
+      "summary": "Caring listening, and knowing when to refer someone to a pastor or professional.",
+      "assignment": "Practice active listening in one conversation. Write down what you heard, not what you said."
+    },
+    {
+      "id": "mentoring",
+      "title": "Mentoring",
+      "refs": [
+        "2 Timothy 2:2",
+        "Titus 2:3–5"
+      ],
+      "summary": "Walking with one person over time, the heart of multiplication.",
+      "assignment": "Meet with one younger believer three times this month."
+    },
+    {
+      "id": "small-group",
+      "title": "Small Group Leadership",
+      "refs": [
+        "Acts 2:42–47",
+        "Hebrews 10:24–25"
+      ],
+      "summary": "Planning a meeting, asking good questions and caring for members.",
+      "assignment": "Co-lead one small group session with an experienced leader."
+    },
+    {
+      "id": "teaching",
+      "title": "Teaching the Bible",
+      "refs": [
+        "Nehemiah 8:8",
+        "2 Timothy 4:2"
+      ],
+      "summary": "Reading a passage carefully, explaining it simply and applying it.",
+      "assignment": "Prepare and teach a 15-minute Bible study on a short passage."
+    },
+    {
+      "id": "evangelism-l",
+      "title": "Leading in Evangelism",
+      "refs": [
+        "Acts 8:26–40",
+        "Colossians 4:5–6"
+      ],
+      "summary": "Sharing the gospel personally and training others to do the same.",
+      "assignment": "Share your story of faith with one person and then train a friend to share theirs."
+    },
+    {
+      "id": "conflict",
+      "title": "Conflict Management",
+      "refs": [
+        "Matthew 18:15–17",
+        "Ephesians 4:26–32"
+      ],
+      "summary": "Handling disagreement biblically, quickly and with grace.",
+      "assignment": "Study Matthew 18:15–17 and role-play a difficult conversation with your mentor."
+    },
+    {
+      "id": "cross-cultural",
+      "title": "Cross-cultural Ministry",
+      "refs": [
+        "Acts 17:16–34",
+        "1 Corinthians 9:19–23"
+      ],
+      "summary": "Ministering among Filipinos, Koreans and other nationalities with understanding.",
+      "assignment": "Interview someone from another culture about how they see faith and community."
+    },
+    {
+      "id": "digital-l",
+      "title": "Digital Ministry Leadership",
+      "refs": [
+        "Colossians 4:3",
+        "Philippians 1:18"
+      ],
+      "summary": "Leading online groups and content teams responsibly.",
+      "assignment": "Plan and host one online Bible study using Zoom or Messenger."
+    }
+  ]
+}

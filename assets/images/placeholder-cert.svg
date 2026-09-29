@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs><radialGradient id="g" cx="70%" cy="30%" r="80%"><stop offset="0" stop-color="#f5a524" stop-opacity=".35"/><stop offset="1" stop-color="#0d2440" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="800" fill="#163a63"/><rect width="1200" height="800" fill="url(#g)"/>
+  <rect x="330" y="180" width="540" height="380" rx="18" fill="none" stroke="#fff" stroke-width="12"/>
+  <rect x="360" y="210" width="480" height="320" rx="10" fill="none" stroke="#f5a524" stroke-width="5" opacity=".8"/>
+  <path d="M430 290 H770 M480 350 H720 M510 410 H690" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>  <circle cx="780" cy="520" r="62" fill="#f5a524"/>
+  <path d="M750 575 L735 670 L780 645 L825 670 L810 575" fill="none" stroke="#f5a524" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>  <path d="M-20 720 H1220" fill="none" stroke="#f5a524" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>  <circle cx="300" cy="720" r="22" fill="#fff" stroke="#f5a524" stroke-width="8"/>
+</svg>

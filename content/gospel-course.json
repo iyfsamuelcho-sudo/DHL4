@@ -1,0 +1,99 @@
+{
+  "lessons": [
+    {
+      "id": "gc1",
+      "title": "God who made you",
+      "refs": [
+        "Genesis 1:26–27",
+        "Acts 17:24–28"
+      ],
+      "minutes": 15,
+      "status": "draft",
+      "summary": "The Bible begins with God as Creator. People are made in his image and made to know him.",
+      "questions": [
+        "What does it mean to be made in God's image?",
+        "According to Acts 17:27, how near is God?"
+      ]
+    },
+    {
+      "id": "gc2",
+      "title": "What went wrong",
+      "refs": [
+        "Genesis 3",
+        "Romans 3:23",
+        "Romans 6:23"
+      ],
+      "minutes": 15,
+      "status": "draft",
+      "summary": "Humanity turned away from God. The Bible calls this sin and describes its result as death.",
+      "questions": [
+        "What changed after Genesis 3?",
+        "What two things are contrasted in Romans 6:23?"
+      ]
+    },
+    {
+      "id": "gc3",
+      "title": "Who is Jesus?",
+      "refs": [
+        "John 1:1–14",
+        "Mark 1:1",
+        "Mark 8:27–29"
+      ],
+      "minutes": 20,
+      "status": "draft",
+      "summary": "The Gospels introduce Jesus as the Christ, the Son of God, who came to live among us.",
+      "questions": [
+        "What did people say about Jesus in Mark 8?",
+        "Who do you say he is?"
+      ]
+    },
+    {
+      "id": "gc4",
+      "title": "The cross and forgiveness",
+      "refs": [
+        "Isaiah 53:4–6",
+        "1 Peter 2:24",
+        "Colossians 1:13–14"
+      ],
+      "minutes": 20,
+      "status": "draft",
+      "summary": "The New Testament teaches that Jesus died for sins and rose again, so people can be forgiven.",
+      "questions": [
+        "How does Isaiah 53 describe the one who suffers?",
+        "What do we have in Christ, according to Colossians 1:14?"
+      ]
+    },
+    {
+      "id": "gc5",
+      "title": "Repentance and faith",
+      "refs": [
+        "Mark 1:15",
+        "Acts 20:21",
+        "Ephesians 2:8–9"
+      ],
+      "minutes": 15,
+      "status": "draft",
+      "summary": "Jesus called people to repent and believe the good news. Salvation is received by faith as a gift.",
+      "questions": [
+        "What two responses does Mark 1:15 call for?",
+        "Why is salvation called a gift?"
+      ]
+    },
+    {
+      "id": "gc6",
+      "title": "A new life",
+      "refs": [
+        "2 Corinthians 5:17",
+        "John 10:10",
+        "Acts 2:42"
+      ],
+      "minutes": 15,
+      "status": "draft",
+      "summary": "Those who follow Jesus begin a new life, growing together with other believers.",
+      "questions": [
+        "What does 'new creation' mean to you?",
+        "What next step will you take?"
+      ]
+    }
+  ]
+}
