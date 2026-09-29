@@ -800,6 +800,64 @@ content:
     - name: file
       label: File
       type: file
+- name: ai-knowledge
+  label: 'AI assistant: knowledge'
+  type: file
+  path: content/ai-knowledge.json
+  description: Questions and the answers DHL AI should give. In demo mode, a matching answer is shown word for word. With
+    the live AI, these are sent as DHL-approved answers to base replies on.
+  fields:
+  - name: entries
+    label: Answers
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Example question
+      type: string
+      required: true
+      description: Write it the way a visitor would ask, e.g. What is repentance?
+    - name: keywords
+      label: Keywords (one per line)
+      type: string
+      list: true
+      description: Words and short phrases that should find this answer, e.g. repent, repentance, turn from sin
+    - name: answer
+      label: Answer
+      type: text
+      required: true
+      description: Blank line = new paragraph. **text** = bold. For Pastor Park's teaching, write a short summary in your
+        own words; don't copy long passages from his books (they're copyrighted).
+    - name: sourceType
+      label: Source type
+      type: select
+      required: true
+      description: dhl = a DHL answer; bible = a Bible study note; park = Pastor Ock Soo Park's teaching (only shown when
+        someone asks about Pastor Park, always labelled as his teaching)
+      options:
+        values:
+        - dhl
+        - bible
+        - park
+    - name: source
+      label: Source title
+      type: string
+      description: e.g. DHL Gospel Class, or the book title for Pastor Park's teaching
+    - name: link
+      label: Link for more (optional)
+      type: string
+      description: A page on this site, e.g. gospel.html, or an https:// link
+    - name: refs
+      label: Bible references (one per line)
+      type: string
+      list: true
+    - name: needsMentor
+      label: Also suggest talking to a mentor
+      type: boolean
+    - name: enabled
+      label: Use this answer
+      type: boolean
+      description: Untick to hide an answer without deleting it
 - name: site-settings
   label: Site settings
   type: file
