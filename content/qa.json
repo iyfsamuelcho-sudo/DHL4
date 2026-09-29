@@ -64,6 +64,11 @@
       "category": "Daily life",
       "q": "How do I throw away trash?",
       "a": "Use volume-based trash bags (종량제 봉투) from a convenience store, and separate food waste and recyclables. Rules differ by district."
+    },
+    {
+      "category": "Korea",
+      "q": "hello",
+      "a": "test"
     }
   ]
 }
