@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "sample": true,
+      "title": "Filipino fellowship afternoon",
+      "date": "2026-10-04",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "location": "Seoul (location shared after registration)",
+      "category": "Fellowship",
+      "description": "Worship, a shared Filipino meal and time to meet new friends. Newcomers are very welcome.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": "hello@your-dhl-ministry.org"
+    },
+    {
+      "sample": true,
+      "title": "Korean language session: at the hospital",
+      "date": "2026-10-10",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "location": "Online (Zoom)",
+      "category": "Life in Korea",
+      "description": "Practice the Korean you need at a clinic or hospital, with role-plays and a printable phrase list.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": ""
+    },
+    {
+      "sample": true,
+      "title": "Online Bible study: The Gospel of Mark",
+      "date": "2026-10-13",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "location": "Online (Zoom)",
+      "category": "Bible Study",
+      "description": "A weekly study for workers and students. Come as you are; no experience needed.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": ""
+    },
+    {
+      "sample": true,
+      "title": "Leadership training: leading a small group",
+      "date": "2026-10-24",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "location": "Seoul (location shared after registration)",
+      "category": "Leadership",
+      "description": "A one-day workshop for Leadership Academy Level 3. Lunch provided.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": "hello@your-dhl-ministry.org"
+    },
+    {
+      "sample": true,
+      "title": "Digital ministry training: short-form video",
+      "date": "2026-11-07",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "location": "Online (Zoom)",
+      "category": "Digital Ministry",
+      "description": "Plan, film and edit a 60-second video on your phone. Bring your phone and an idea.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": ""
+    },
+    {
+      "sample": true,
+      "title": "Winter Bible camp",
+      "date": "2026-12-26",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "location": "To be announced",
+      "category": "Bible Camp",
+      "description": "Two days of Bible teaching, worship, games and fellowship over the holidays.",
+      "registrationUrl": "https://forms.gle/your-event-form",
+      "contact": "hello@your-dhl-ministry.org"
+    },
+    {
+      "sample": true,
+      "title": "Welcome night for newcomers",
+      "date": "2026-09-12",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "location": "Seoul",
+      "category": "Fellowship",
+      "description": "An evening to meet the DHL community.",
+      "registrationUrl": "",
+      "contact": ""
+    }
+  ]
+}

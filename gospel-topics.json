@@ -1,0 +1,199 @@
+{
+  "topics": [
+    {
+      "id": "sin",
+      "title": "Sin",
+      "status": "draft",
+      "refs": [
+        "Romans 3:23",
+        "1 John 3:4",
+        "Isaiah 59:2"
+      ],
+      "summary": "The Bible describes sin as breaking God's law and falling short of his standard, which separates people from God.",
+      "questions": [
+        "How does Isaiah 59:2 describe the effect of sin?",
+        "Why does Romans 3:23 say 'all'?"
+      ]
+    },
+    {
+      "id": "law",
+      "title": "The Law",
+      "status": "draft",
+      "refs": [
+        "Romans 3:20",
+        "Romans 7:7",
+        "Galatians 3:24"
+      ],
+      "summary": "God's law shows his holy standard. According to Paul, it makes us aware of sin and points us to Christ.",
+      "questions": [
+        "What does Romans 3:20 say the law cannot do?",
+        "What does Galatians 3:24 compare the law to?"
+      ]
+    },
+    {
+      "id": "repentance",
+      "title": "Repentance",
+      "status": "draft",
+      "refs": [
+        "Acts 3:19",
+        "Luke 15:7",
+        "2 Corinthians 7:10"
+      ],
+      "summary": "Repentance means a change of mind and direction: turning away from sin and toward God.",
+      "questions": [
+        "What promise comes with repentance in Acts 3:19?",
+        "How does heaven respond in Luke 15:7?"
+      ]
+    },
+    {
+      "id": "jesus",
+      "title": "Jesus Christ",
+      "status": "draft",
+      "refs": [
+        "John 1:1–14",
+        "Matthew 16:15–16",
+        "Colossians 1:15–20"
+      ],
+      "summary": "The Bible presents Jesus as the eternal Word who became a man, the Christ and the Son of the living God.",
+      "questions": [
+        "What does John 1:14 say happened?",
+        "How did Peter answer Jesus' question in Matthew 16?"
+      ]
+    },
+    {
+      "id": "cross",
+      "title": "The Cross",
+      "status": "draft",
+      "refs": [
+        "1 Corinthians 1:18",
+        "1 Peter 2:24",
+        "Philippians 2:8"
+      ],
+      "summary": "Jesus died on the cross. The New Testament teaches that he bore our sins there.",
+      "questions": [
+        "According to 1 Peter 2:24, whose sins did Jesus bear?",
+        "Why might the cross seem foolish to some people?"
+      ]
+    },
+    {
+      "id": "blood",
+      "title": "The Blood of Christ",
+      "status": "draft",
+      "refs": [
+        "Hebrews 9:22",
+        "Ephesians 1:7",
+        "1 Peter 1:18–19"
+      ],
+      "summary": "Scripture connects forgiveness with the blood of Christ, his life given in death for sinners.",
+      "questions": [
+        "What does Ephesians 1:7 say we have through his blood?",
+        "What is compared with Christ's blood in 1 Peter 1:18–19?"
+      ]
+    },
+    {
+      "id": "atonement",
+      "title": "Atonement",
+      "status": "draft",
+      "refs": [
+        "Leviticus 17:11",
+        "Romans 3:25",
+        "1 John 2:2"
+      ],
+      "summary": "Atonement is how sinners are reconciled to God. The Bible points to Jesus' sacrifice as the means.",
+      "questions": [
+        "How does Leviticus 17:11 prepare us to understand the cross?",
+        "Who does 1 John 2:2 say Jesus is?"
+      ]
+    },
+    {
+      "id": "forgiveness",
+      "title": "Forgiveness of Sins",
+      "status": "draft",
+      "refs": [
+        "Acts 10:43",
+        "Colossians 1:14",
+        "1 John 1:9"
+      ],
+      "summary": "The Bible promises forgiveness of sins through Jesus to everyone who believes in him.",
+      "questions": [
+        "Who receives forgiveness according to Acts 10:43?",
+        "What does 1 John 1:9 say God is?"
+      ]
+    },
+    {
+      "id": "righteousness",
+      "title": "Righteousness",
+      "status": "draft",
+      "refs": [
+        "Romans 3:21–22",
+        "2 Corinthians 5:21",
+        "Philippians 3:9"
+      ],
+      "summary": "Paul teaches that God gives righteousness through faith in Jesus Christ, not through our own works.",
+      "questions": [
+        "How does 2 Corinthians 5:21 describe an exchange?",
+        "Where does Paul say his righteousness comes from in Philippians 3:9?"
+      ]
+    },
+    {
+      "id": "faith",
+      "title": "Faith",
+      "status": "draft",
+      "refs": [
+        "Hebrews 11:1",
+        "Ephesians 2:8",
+        "Romans 10:17"
+      ],
+      "summary": "Faith is trusting God and his promises. Scripture says it comes by hearing the word of God.",
+      "questions": [
+        "How does Hebrews 11:1 define faith?",
+        "Where does faith come from in Romans 10:17?"
+      ]
+    },
+    {
+      "id": "salvation",
+      "title": "Salvation",
+      "status": "draft",
+      "refs": [
+        "Ephesians 2:8–9",
+        "Titus 3:5",
+        "Romans 10:9"
+      ],
+      "summary": "The Bible describes salvation as a gift of God's grace received through faith, not earned by works.",
+      "questions": [
+        "Why can no one boast, according to Ephesians 2:9?",
+        "What does Romans 10:9 ask a person to believe?"
+      ]
+    },
+    {
+      "id": "new-life",
+      "title": "New Life",
+      "status": "draft",
+      "refs": [
+        "2 Corinthians 5:17",
+        "Romans 6:4",
+        "John 3:3"
+      ],
+      "summary": "Those who are in Christ are described as a new creation, called to walk in newness of life.",
+      "questions": [
+        "What passes away in 2 Corinthians 5:17?",
+        "What did Jesus tell Nicodemus in John 3:3?"
+      ]
+    },
+    {
+      "id": "bible-study",
+      "title": "Bible Study",
+      "status": "draft",
+      "refs": [
+        "2 Timothy 3:16–17",
+        "Psalm 119:105",
+        "Acts 17:11"
+      ],
+      "summary": "Scripture is God-breathed and useful for teaching. The Bereans examined it daily for themselves.",
+      "questions": [
+        "What four uses of Scripture are listed in 2 Timothy 3:16?",
+        "What did the Bereans do in Acts 17:11?"
+      ]
+    }
+  ]
+}

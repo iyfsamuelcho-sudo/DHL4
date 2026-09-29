@@ -1,0 +1,26 @@
+# Cloudflare Worker settings for the DHL AI backend.
+# Secrets (the API key) are NOT stored here. Set them with:
+#   npx wrangler secret put ANTHROPIC_API_KEY
+
+name = "dhl-ai"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Your published website address(es), comma-separated. Only these sites may call the worker.
+ALLOWED_ORIGINS = "https://your-username.github.io"
+
+# Where the worker reads the DHL AI instructions from (your published site).
+PROMPT_URL = "https://your-username.github.io/your-repository/ai/dhl-ai-system-prompt.md"
+
+# DHL-approved answers edited in Pages CMS ("AI assistant: knowledge").
+KNOWLEDGE_URL = "https://your-username.github.io/your-repository/content/ai-knowledge.json"
+
+# Claude model to use. Check https://docs.claude.com for current model names.
+MODEL = "claude-sonnet-5"
+MAX_TOKENS = "1500"
+
+# Set to "true" only after Pastor Ock Soo Park's book text (with permission)
+# is connected through retrieval. Until then, DHL AI will not describe his
+# teaching from memory.
+BOOKS_AVAILABLE = "false"

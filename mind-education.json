@@ -1,0 +1,132 @@
+{
+  "lessons": [
+    {
+      "id": "mind-heart",
+      "title": "The heart and its thoughts",
+      "level": "Beginner",
+      "minutes": 15,
+      "status": "draft",
+      "refs": [
+        "Proverbs 4:23",
+        "Mark 7:21–23"
+      ],
+      "summary": "The Bible treats the heart as the center of a person's thoughts, desires and choices. What happens in the heart shapes what we say and do.",
+      "questions": [
+        "Why does Proverbs 4:23 say to guard the heart?",
+        "According to Mark 7:21–23, where do evil actions begin?"
+      ]
+    },
+    {
+      "id": "mind-thoughts",
+      "title": "Where thoughts lead",
+      "level": "Beginner",
+      "minutes": 15,
+      "status": "draft",
+      "refs": [
+        "James 1:14–15",
+        "Genesis 3:1–6"
+      ],
+      "summary": "James describes a chain: desire, then temptation, then sin. Genesis 3 shows how a single thought, accepted, changed Eve's view of what God had said.",
+      "questions": [
+        "What are the steps in James 1:14–15?",
+        "What thought did Eve accept in Genesis 3?"
+      ]
+    },
+    {
+      "id": "mind-selfcontrol",
+      "title": "Self-control",
+      "level": "Beginner",
+      "minutes": 15,
+      "status": "draft",
+      "refs": [
+        "Proverbs 25:28",
+        "Galatians 5:22–23"
+      ],
+      "summary": "A person without self-control is compared to a city without walls. Self-control is listed as part of the fruit of the Spirit.",
+      "questions": [
+        "What does a city without walls lack?",
+        "In which area of life do you most need self-control?"
+      ]
+    },
+    {
+      "id": "mind-isolation",
+      "title": "Overcoming isolation",
+      "level": "Beginner",
+      "minutes": 15,
+      "status": "draft",
+      "refs": [
+        "Ecclesiastes 4:9–10",
+        "Hebrews 10:24–25"
+      ],
+      "summary": "Living far from home can be lonely. Scripture says two are better than one, because when one falls, the other can help them up.",
+      "questions": [
+        "Who lifts you up when you fall?",
+        "Who could you encourage this week?"
+      ]
+    },
+    {
+      "id": "mind-listening",
+      "title": "Listening and receiving advice",
+      "level": "Intermediate",
+      "minutes": 20,
+      "status": "draft",
+      "refs": [
+        "Proverbs 12:15",
+        "James 1:19"
+      ],
+      "summary": "The wise listen to advice. James teaches us to be quick to hear, slow to speak and slow to anger.",
+      "questions": [
+        "Why is it hard to accept advice?",
+        "Whose advice do you trust, and why?"
+      ]
+    },
+    {
+      "id": "mind-communication",
+      "title": "Communication and empathy",
+      "level": "Intermediate",
+      "minutes": 20,
+      "status": "draft",
+      "refs": [
+        "Romans 12:15",
+        "Colossians 4:6"
+      ],
+      "summary": "Good relationships grow when we share others' joys and sorrows, and speak with grace.",
+      "questions": [
+        "What does it mean to 'weep with them that weep'?",
+        "How can your words be 'seasoned with salt'?"
+      ]
+    },
+    {
+      "id": "mind-renewing",
+      "title": "Renewing the mind",
+      "level": "Intermediate",
+      "minutes": 20,
+      "status": "draft",
+      "refs": [
+        "Romans 12:2",
+        "Philippians 4:8"
+      ],
+      "summary": "Paul calls believers to be transformed by the renewing of their minds, and to think about what is true, honest, just and pure.",
+      "questions": [
+        "What does Romans 12:2 say not to be conformed to?",
+        "Which item in Philippians 4:8 do you want to think about more?"
+      ]
+    },
+    {
+      "id": "mind-forgiveness",
+      "title": "Relationships and forgiveness",
+      "level": "Advanced",
+      "minutes": 25,
+      "status": "draft",
+      "refs": [
+        "Ephesians 4:31–32",
+        "Colossians 3:13"
+      ],
+      "summary": "Bitterness damages relationships. Believers are called to forgive one another, as God in Christ forgave them.",
+      "questions": [
+        "What does Ephesians 4:31 say to put away?",
+        "What is the reason for forgiving in Ephesians 4:32?"
+      ]
+    }
+  ]
+}

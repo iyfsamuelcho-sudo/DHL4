@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "sample": true,
+      "name": "Tuesday Zoom Bible study",
+      "when": "Tuesdays, 8:00 PM",
+      "where": "Online (Zoom)",
+      "lang": "English and Tagalog",
+      "text": "A relaxed study for workers who can't meet in person on weekdays.",
+      "form": "bibleStudy"
+    },
+    {
+      "sample": true,
+      "name": "Filipino fellowship",
+      "when": "Sundays, 3:00 PM",
+      "where": "Seoul (location shared after sign-up)",
+      "lang": "Tagalog and English",
+      "text": "Worship, a shared meal and time to talk.",
+      "form": "community"
+    },
+    {
+      "sample": true,
+      "name": "Korean conversation café",
+      "when": "Saturdays, 2:00 PM",
+      "where": "Online and in person",
+      "lang": "Korean practice",
+      "text": "Practice everyday Korean with friendly volunteers.",
+      "form": "community"
+    },
+    {
+      "sample": true,
+      "name": "Leaders' circle",
+      "when": "First Monday of the month, 8:00 PM",
+      "where": "Online (Zoom)",
+      "lang": "English",
+      "text": "Encouragement and training for small group leaders.",
+      "form": "leadership"
+    }
+  ]
+}

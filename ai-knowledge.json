@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "question": "How can I join the DHL community?",
+      "keywords": [
+        "join",
+        "community",
+        "group chat",
+        "friends",
+        "fellowship"
+      ],
+      "answer": "You can join the DHL community through our group chats or a fellowship meeting. The Community page lists every option, and you can ask to be connected with a mentor.",
+      "sourceType": "dhl",
+      "source": "DHL Community page",
+      "link": "community.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "What is TOPIK and how do I register?",
+      "keywords": [
+        "topik",
+        "exam",
+        "test"
+      ],
+      "answer": "TOPIK dates, registration and past papers are on the official TOPIK site (topik.go.kr). Our Live in Korea page links to it, and our Korean conversation café can help you practice.",
+      "sourceType": "dhl",
+      "source": "Live in Korea: TOPIK",
+      "link": "live-in-korea.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "Where can I get help with my visa or residence card?",
+      "keywords": [
+        "visa",
+        "arc",
+        "residence",
+        "immigration"
+      ],
+      "answer": "For visas and residence cards, use the official Hi Korea portal or call the Immigration Contact Center at 1345 (multilingual). DHL can't give legal advice, but a mentor can help you find the right office.",
+      "sourceType": "dhl",
+      "source": "Live in Korea: Korean Society",
+      "link": "live-in-korea.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "Where can I learn Korean?",
+      "keywords": [
+        "korean",
+        "language",
+        "learn korean",
+        "kiip"
+      ],
+      "answer": "Good places to start are the KIIP program (through Socinet) and the King Sejong Institute. Our Live in Korea page also has useful everyday expressions.",
+      "sourceType": "dhl",
+      "source": "Live in Korea: Korean Language",
+      "link": "live-in-korea.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "Where can I find a job, or get help at work?",
+      "keywords": [
+        "job",
+        "work",
+        "employer",
+        "salary"
+      ],
+      "answer": "Official job information is on the EPS and Work24 sites. If you're having trouble at work, the Live in Korea page lists helplines, and a DHL mentor can listen and help you find support.",
+      "sourceType": "dhl",
+      "source": "Live in Korea: Jobs",
+      "link": "live-in-korea.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "How can I become a leader at DHL?",
+      "keywords": [
+        "leader",
+        "leadership",
+        "academy",
+        "certificate"
+      ],
+      "answer": "The DHL Leadership Academy has five levels, from Gospel Foundation to a practicum where you lead in real ministry. Certificates recognize completion of DHL training; they are not government-accredited degrees.",
+      "sourceType": "dhl",
+      "source": "DHL Leadership Academy",
+      "link": "academy.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    },
+    {
+      "question": "I am new. Where should I start?",
+      "keywords": [
+        "start",
+        "begin",
+        "new",
+        "where"
+      ],
+      "answer": "A good first step is to choose a pathway: New Visitor, Gospel Seeker, Growing Disciple or Future Leader. Each one shows you the next station to visit.",
+      "sourceType": "dhl",
+      "source": "DHL Pathways",
+      "link": "pathways.html",
+      "refs": [],
+      "needsMentor": false,
+      "enabled": true
+    }
+  ]
+}

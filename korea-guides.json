@@ -1,0 +1,344 @@
+{
+  "guides": [
+    {
+      "id": "g-kfc",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 10,
+      "recommended": true,
+      "title": "Kabayan Filipino Center (KFC)",
+      "url": "https://kabayanfilipinocenter-dotcom.github.io/KFC/",
+      "linkLabel": "Visit the KFC website",
+      "text": "Connecting Filipinos, building community, and creating opportunities in South Korea.",
+      "tips": [
+        "Korean Language Class",
+        "Driving Class",
+        "Translation & Assistance",
+        "Filipino Sunday Worship Service",
+        "Cultural Experience & Tour",
+        "Shelter & Consultation"
+      ]
+    },
+    {
+      "id": "g-swsk",
+      "area": "job",
+      "level": "Beginner",
+      "minutes": 10,
+      "recommended": true,
+      "title": "Study and Work in South Korea",
+      "url": "https://www.facebook.com/StudyAndWorkinSouthKorea",
+      "linkLabel": "Visit on Facebook",
+      "text": "A Facebook page with information and updates about studying and working in South Korea."
+    },
+    {
+      "id": "g-hangul",
+      "area": "korean",
+      "level": "Beginner",
+      "minutes": 60,
+      "title": "Learn Hangul, the Korean alphabet",
+      "course": "korean-survival-1",
+      "text": "Hangul has 14 basic consonants and 10 basic vowels that combine into syllable blocks. Most people can learn to read it in a few days."
+    },
+    {
+      "id": "g-expressions",
+      "area": "korean",
+      "level": "Beginner",
+      "minutes": 15,
+      "title": "Useful Korean expressions",
+      "href": "#expressions",
+      "text": "Twelve phrases for greetings, shopping, getting help and work."
+    },
+    {
+      "id": "g-kiip",
+      "area": "korean",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Korea Immigration & Integration Program (KIIP)",
+      "url": "https://www.socinet.go.kr",
+      "text": "Government Korean language and society classes for foreign residents. Registration is through Socinet."
+    },
+    {
+      "id": "g-sejong",
+      "area": "korean",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "King Sejong Institute",
+      "url": "https://www.iksi.or.kr",
+      "text": "Korean courses online and in person, from beginner level."
+    },
+    {
+      "id": "g-cafe",
+      "area": "korean",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Korean conversation café",
+      "href": "community.html",
+      "text": "Practice everyday Korean with friendly volunteers in the DHL community."
+    },
+    {
+      "id": "g-topik",
+      "area": "korean",
+      "level": "Intermediate",
+      "minutes": 10,
+      "title": "TOPIK: the Test of Proficiency in Korean",
+      "url": "https://www.topik.go.kr",
+      "text": "Test dates, registration and past papers. Many universities, employers and some visa types ask for a TOPIK level."
+    },
+    {
+      "id": "g-visatypes",
+      "area": "visa",
+      "level": "Beginner",
+      "minutes": 15,
+      "title": "Understanding visa types",
+      "text": "Your visa type (체류자격) decides what you may do in Korea: study, work, or live with family.",
+      "tips": [
+        "D-2 is for university students and D-4 for language trainees.",
+        "E-9 is for workers through the Employment Permit System (EPS).",
+        "E-7 is for specific professional jobs.",
+        "F-6 is for marriage migrants.",
+        "Each visa allows certain activities only. Check what yours allows on Hi Korea or by calling 1345."
+      ]
+    },
+    {
+      "id": "g-arc",
+      "area": "visa",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Registering for your residence card",
+      "text": "If you will stay in Korea for more than 90 days, you must register as a foreign resident within 90 days of entering Korea and receive a residence card.",
+      "tips": [
+        "Book an appointment at your local immigration office through Hi Korea.",
+        "Bring your passport, a photo, the application form and documents for your visa type.",
+        "Carry your residence card with you.",
+        "Report a change of address within the legal deadline. Check Hi Korea for the current rule."
+      ]
+    },
+    {
+      "id": "g-extend",
+      "area": "visa",
+      "level": "Intermediate",
+      "minutes": 10,
+      "title": "Extending or changing your stay",
+      "text": "Apply before your permitted stay ends. Late applications and working outside your visa's permitted activities can lead to fines or other penalties.",
+      "tips": [
+        "Check your expiry date on your residence card now and set a reminder.",
+        "Many applications can be made online or by appointment on Hi Korea.",
+        "For your own situation, ask the Immigration Contact Center (1345) or a qualified professional. DHL can't give legal advice."
+      ]
+    },
+    {
+      "id": "g-hikorea",
+      "area": "visa",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Hi Korea (official immigration portal)",
+      "url": "https://www.hikorea.go.kr",
+      "text": "Visas, residence cards, appointments and e-applications. Immigration Contact Center: 1345 (multilingual)."
+    },
+    {
+      "id": "g-eps",
+      "area": "job",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Employment Permit System (EPS)",
+      "url": "https://www.eps.go.kr",
+      "text": "Official information for workers on E-9 and H-2 employment permits."
+    },
+    {
+      "id": "g-work24",
+      "area": "job",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Work24 job portal",
+      "url": "https://www.work24.go.kr",
+      "text": "Korea's public employment and job-search service."
+    },
+    {
+      "id": "g-rights",
+      "area": "job",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Know your rights at work",
+      "text": "Korean labor law protects foreign workers too.",
+      "tips": [
+        "Ask for a written employment contract, in a language you understand, and keep a copy.",
+        "The minimum wage applies to foreign workers.",
+        "Keep your own record of working hours and pay.",
+        "For labor questions, call the Ministry of Employment and Labor counseling center at 1350.",
+        "A DHL mentor can listen and help you find the right office."
+      ]
+    },
+    {
+      "id": "g-workplace",
+      "area": "job",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Korean workplace basics",
+      "text": "Simple habits that help you build trust at work.",
+      "tips": [
+        "Arrive a little early; punctuality matters.",
+        "Greet colleagues when you arrive and leave.",
+        "Use polite speech (존댓말) with supervisors and older coworkers.",
+        "Ask when you don't understand: 다시 한 번 말씀해 주세요 (please say it again)."
+      ]
+    },
+    {
+      "id": "g-resume",
+      "area": "job",
+      "level": "Intermediate",
+      "minutes": 20,
+      "title": "Preparing a Korean résumé",
+      "text": "Korean applications usually have two parts: a résumé (이력서) and a self-introduction letter (자기소개서).",
+      "tips": [
+        "Many Korean résumés include a professional photo.",
+        "List your visa type and Korean level (such as your TOPIK level) clearly.",
+        "In the self-introduction letter, explain why you want this job and how you will contribute.",
+        "Ask a Korean friend or DHL mentor to check your Korean before you apply."
+      ]
+    },
+    {
+      "id": "g-career",
+      "area": "job",
+      "level": "Intermediate",
+      "minutes": 30,
+      "title": "Talk to a mentor about your career",
+      "form": "mentor",
+      "text": "Planning your next step in Korea or back home? A mentor can listen and help you think it through."
+    },
+    {
+      "id": "g-studyinkorea",
+      "area": "campus",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Study in Korea",
+      "url": "https://www.studyinkorea.go.kr",
+      "text": "Official information for international students, including admissions and scholarships."
+    },
+    {
+      "id": "g-campus",
+      "area": "campus",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Campus life basics",
+      "text": "What to expect at a Korean university.",
+      "tips": [
+        "Visit your university's international student office early. They help with visas, housing and registration.",
+        "Seniors (선배) and juniors (후배) matter in Korean student culture. Seniors often help newcomers.",
+        "Group projects (팀플) are common. Communicate often and share work fairly.",
+        "Student visa holders usually need permission before working part-time. Ask your international office first."
+      ]
+    },
+    {
+      "id": "g-students",
+      "area": "campus",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Student communities at DHL",
+      "href": "community.html",
+      "text": "Meet other international students for Bible study, fellowship and friendship."
+    },
+    {
+      "id": "g-transport",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Getting around",
+      "text": "Korea's public transport is fast, cheap and easy once you know the basics.",
+      "tips": [
+        "Buy a T-money card at a convenience store or subway station, and top it up with cash.",
+        "Naver Map and KakaoMap give better directions in Korea than most international map apps.",
+        "Tap your card when you get on and off buses so transfers are discounted."
+      ]
+    },
+    {
+      "id": "g-housing",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 15,
+      "title": "Understanding Korean housing",
+      "text": "What to check before you sign a contract or pay a deposit.",
+      "tips": [
+        "Know the difference between 월세 (monthly rent with a deposit) and 전세 (a large lump-sum deposit).",
+        "Check that the landlord owns the property before paying a deposit.",
+        "Get a written contract and ask a Korean-speaking friend or a DHL mentor to read it with you.",
+        "Report your new address when you move."
+      ]
+    },
+    {
+      "id": "g-bank",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Opening a bank account",
+      "text": "Bring your passport and residence card. Banks may also ask for a document from your employer or school, and some limit new accounts at first. Ask at the branch what you need."
+    },
+    {
+      "id": "g-health",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 15,
+      "title": "Healthcare in Korea",
+      "url": "https://www.nhis.or.kr",
+      "text": "Many foreign residents who stay six months or more are enrolled in National Health Insurance. Check your status on the NHIS site.",
+      "tips": [
+        "For everyday illness, visit a local clinic (의원). For serious conditions, go to a hospital (병원).",
+        "Bring your residence card to every visit.",
+        "Pharmacies (약국) fill prescriptions and sell basic medicine.",
+        "In an emergency, call 119."
+      ]
+    },
+    {
+      "id": "g-trash",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Trash and recycling",
+      "text": "Household trash goes in volume-based trash bags (종량제 봉투) sold at convenience stores. Food waste and recyclables are separated. Rules differ by district, so ask your neighbors or building manager."
+    },
+    {
+      "id": "g-danuri",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Danuri helpline for multicultural families",
+      "url": "https://www.liveinkorea.kr",
+      "text": "Multilingual help with daily life. Phone: 1577-1366."
+    },
+    {
+      "id": "g-seoulglobal",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Seoul Global Center",
+      "url": "https://global.seoul.go.kr",
+      "text": "Counseling, classes and support for foreign residents of Seoul."
+    },
+    {
+      "id": "g-culture",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 10,
+      "title": "Korean culture and holidays",
+      "url": "https://english.visitkorea.or.kr",
+      "text": "Festivals, holidays, food and places to explore, from the official tourism site."
+    },
+    {
+      "id": "g-driving",
+      "area": "living",
+      "level": "Intermediate",
+      "minutes": 10,
+      "title": "Driver's license information",
+      "url": "https://www.safedriving.or.kr",
+      "text": "Road Traffic Authority information on tests and exchanging a foreign license."
+    },
+    {
+      "id": "g-embassy",
+      "area": "living",
+      "level": "Beginner",
+      "minutes": 5,
+      "title": "Philippine Embassy in Seoul",
+      "url": "https://seoulpe.dfa.gov.ph",
+      "text": "Consular services for Filipinos, including passports and document authentication."
+    }
+  ]
+}

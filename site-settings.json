@@ -1,0 +1,24 @@
+{
+  "email": "hello@your-dhl-ministry.org",
+  "location": "Seoul, South Korea",
+  "forms": {
+    "prayer": "https://forms.gle/your-prayer-form",
+    "contact": "https://forms.gle/your-contact-form",
+    "bibleStudy": "https://forms.gle/your-bible-study-form",
+    "mentor": "https://www.facebook.com/gichun.cho",
+    "community": "https://forms.gle/your-community-form",
+    "leadership": "https://forms.gle/your-academy-form",
+    "events": "https://forms.gle/your-event-form",
+    "question": "https://forms.gle/your-question-form"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/share/1CPwX6C7Hv/",
+    "youtube": "https://www.youtube.com/channel/UCy-688NReUqpEgWUziM2n8A",
+    "instagram": "https://www.instagram.com/your-dhl",
+    "tiktok": "https://www.tiktok.com/@your-dhl",
+    "messenger": "https://m.me/j/SowpG-9qQ0G1Zu3C/",
+    "facebookGroup": "https://www.facebook.com/share/g/1DNAuhweRH/",
+    "whatsapp": "",
+    "kakaoOpenChat": "https://open.kakao.com/o/pJjZEWPi"
+  }
+}

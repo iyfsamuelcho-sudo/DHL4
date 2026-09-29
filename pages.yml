@@ -1,0 +1,928 @@
+# Pages CMS configuration for the DHL website (https://pagescms.org)
+# Defines the edit forms for everything in content/. See README section 19.
+
+media:
+  input: assets/images
+  output: assets/images
+content:
+- name: posts
+  label: News & posts
+  type: file
+  path: content/posts.json
+  description: Latest Ministry Content and the News page. Newest date shows first.
+  fields:
+  - name: posts
+    label: Posts
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: date
+      label: Date
+      type: date
+      required: true
+      options:
+        format: yyyy-MM-dd
+    - name: type
+      label: Post type
+      type: select
+      required: true
+      description: announcement = News
+      options:
+        values:
+        - announcement
+        - event
+        - testimony
+        - study
+        - resource
+        - facebook
+        - youtube
+    - name: category
+      label: Category
+      type: string
+      required: true
+      description: e.g. Announcement, Gospel & Bible, Fellowship
+    - name: description
+      label: Short description
+      type: text
+      required: true
+      description: One or two sentences shown on the post card.
+    - name: content
+      label: Full content
+      type: text
+      description: Blank line = new paragraph. Start a line with > to highlight a Bible verse, - for a list, **text** for
+        bold.
+    - name: id
+      label: Article ID
+      type: string
+      description: Needed for a full article page. Lowercase letters, numbers and hyphens, e.g. 2026-10-05-bible-camp
+    - name: image
+      label: Featured image
+      type: image
+    - name: url
+      label: External link (optional)
+      type: string
+      description: https:// link or a page on this site, e.g. events.html
+    - name: author
+      label: Author (optional)
+      type: string
+    - name: scripture
+      label: Scripture reference (optional)
+      type: string
+      description: e.g. Romans 8:28
+    - name: scriptureVersion
+      label: Bible version for the scripture link (optional)
+      type: string
+      description: e.g. NKJV, NIV, KJV
+    - name: videoId
+      label: YouTube video ID (YouTube posts only)
+      type: string
+      description: The part after watch?v= in the video link
+    - name: pinned
+      label: Pinned to the top
+      type: boolean
+    - &id001
+      name: sample
+      label: Sample (shows a "Sample" badge)
+      type: boolean
+- name: events
+  label: Events
+  type: file
+  path: content/events.json
+  description: Upcoming events show soonest first; past events move to "Past events" automatically.
+  fields:
+  - name: events
+    label: Events
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Event name
+      type: string
+      required: true
+    - name: date
+      label: Date
+      type: date
+      required: true
+      options:
+        format: yyyy-MM-dd
+    - name: startTime
+      label: Start time
+      type: string
+      required: true
+      description: 24-hour, e.g. 14:00
+    - name: endTime
+      label: End time
+      type: string
+      description: 24-hour, e.g. 16:30
+    - name: location
+      label: Location
+      type: string
+      required: true
+    - name: category
+      label: Category
+      type: string
+      description: e.g. Bible Study, Fellowship, Leadership
+    - name: description
+      label: Description
+      type: text
+      required: true
+    - name: registrationUrl
+      label: Registration link
+      type: string
+    - name: contact
+      label: Contact email
+      type: string
+    - *id001
+- name: gospel-topics
+  label: 'Gospel Class: topics'
+  type: file
+  path: content/gospel-topics.json
+  description: Topic cards on the Gospel Class page.
+  fields:
+  - name: topics
+    label: Topics
+    type: object
+    list: true
+    fields: &id005
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - &id002
+      name: status
+      label: Status
+      type: select
+      description: '"draft" shows a "Draft for review" badge. Change to "approved" when DHL leadership has approved the wording.'
+      options:
+        values:
+        - draft
+        - approved
+    - name: summary
+      label: Summary
+      type: text
+      required: true
+    - &id003
+      name: refs
+      label: Bible references
+      type: string
+      list: true
+      description: One reference per line, e.g. Romans 3:23
+    - &id004
+      name: questions
+      label: Reflection questions
+      type: string
+      list: true
+- name: gospel-course
+  label: 'Gospel Class: beginner course'
+  type: file
+  path: content/gospel-course.json
+  description: The numbered lessons on the Gospel Class page.
+  fields:
+  - name: lessons
+    label: Lessons
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: minutes
+      label: Minutes
+      type: number
+    - *id002
+    - name: summary
+      label: Summary
+      type: text
+      required: true
+    - *id003
+    - *id004
+- name: bible-studies
+  label: Bible studies
+  type: file
+  path: content/bible-studies.json
+  description: Guided Bible studies on the Gospel Class page.
+  fields:
+  - name: studies
+    label: Studies
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: passage
+      label: Passage
+      type: string
+      required: true
+      description: e.g. John 3:1–21
+    - &id006
+      name: level
+      label: Level
+      type: select
+      options:
+        values:
+        - Beginner
+        - Intermediate
+        - Advanced
+    - name: summary
+      label: Summary
+      type: text
+    - name: steps
+      label: Study steps
+      type: string
+      list: true
+- name: discipleship
+  label: Discipleship Training
+  type: file
+  path: content/discipleship.json
+  description: The seven-step pathway and the topic cards.
+  fields:
+  - name: path
+    label: Pathway steps
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: text
+      label: Short text
+      type: string
+    - name: href
+      label: Link to a page (optional)
+      type: string
+    - name: topic
+      label: 'Or: topic ID to link to (optional)'
+      type: string
+  - name: topics
+    label: Topics
+    type: object
+    list: true
+    fields: *id005
+- name: mind-education
+  label: Mind Education
+  type: file
+  path: content/mind-education.json
+  description: Lessons on the Mind Education page.
+  fields:
+  - name: lessons
+    label: Lessons
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - *id006
+    - name: minutes
+      label: Minutes
+      type: number
+    - *id002
+    - name: summary
+      label: Summary
+      type: text
+      required: true
+    - *id003
+    - *id004
+- name: leadership-courses
+  label: Leadership courses
+  type: file
+  path: content/leadership-courses.json
+  description: Course cards on the Leadership page.
+  fields:
+  - name: courses
+    label: Courses
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: summary
+      label: Summary
+      type: text
+      required: true
+    - name: assignment
+      label: Practical assignment
+      type: text
+    - *id003
+- name: certificate-courses
+  label: Certificate courses
+  type: file
+  path: content/certificate-courses.json
+  description: Courses with lessons, a quiz and a certificate. Set status to "planned" to show a course as "Coming later".
+  fields:
+  - name: courses
+    label: Courses
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: status
+      label: Status
+      type: select
+      options:
+        values:
+        - open
+        - planned
+    - name: category
+      label: Category
+      type: select
+      options:
+        values:
+        - Bible & Gospel
+        - Discipleship
+        - Mind Education
+        - Korean Language
+        - Living in Korea
+        - Leadership
+        - Ministry & Service
+    - *id006
+    - name: hours
+      label: Hours of study
+      type: number
+    - name: description
+      label: Description
+      type: text
+      required: true
+    - name: objectives
+      label: What you'll learn
+      type: string
+      list: true
+    - name: passMark
+      label: Pass mark (%)
+      type: number
+      description: Usually 80
+    - name: modules
+      label: Modules
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Module title
+        type: string
+        required: true
+      - name: lessons
+        label: Lessons
+        type: object
+        list: true
+        fields:
+        - name: id
+          label: ID (unique, no spaces)
+          type: string
+          required: true
+          description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing. Must be
+            unique within the course.
+        - name: title
+          label: Title
+          type: string
+          required: true
+        - name: minutes
+          label: Minutes
+          type: number
+        - name: body
+          label: Paragraphs
+          type: text
+          list: true
+        - *id003
+        - *id004
+        - name: draft
+          label: Draft (shows a review note)
+          type: boolean
+    - name: quiz
+      label: Quiz questions
+      type: object
+      list: true
+      fields:
+      - name: q
+        label: Question
+        type: string
+        required: true
+      - name: options
+        label: Answer options
+        type: string
+        list: true
+      - name: answer
+        label: Correct option number
+        type: number
+        description: 'Counting from 0: the first option is 0, the second is 1…'
+      - name: explain
+        label: Explanation
+        type: text
+- name: academy
+  label: Leadership Academy
+  type: file
+  path: content/academy.json
+  description: Academy levels, courses and certificates.
+  fields:
+  - name: levels
+    label: Levels
+    type: object
+    list: true
+    fields:
+    - name: level
+      label: Level number
+      type: number
+      required: true
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: goal
+      label: Goal
+      type: string
+    - name: practicum
+      label: This level is the practicum
+      type: boolean
+    - name: courses
+      label: Courses
+      type: object
+      list: true
+      fields:
+      - name: id
+        label: ID (unique, no spaces)
+        type: string
+        required: true
+        description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: lessons
+        label: Number of lessons
+        type: number
+      - name: format
+        label: Format
+        type: string
+        description: e.g. Workshop, Self-paced online
+      - name: href
+        label: Link to a page (optional)
+        type: string
+  - name: certificates
+    label: Certificates
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: after
+      label: Awarded after
+      type: string
+      description: e.g. Level 1
+    - name: requires
+      label: Requirements
+      type: text
+  - name: recognitionSteps
+    label: Recognition steps
+    type: string
+    list: true
+- name: korea-guides
+  label: 'Live in Korea: guides'
+  type: file
+  path: content/korea-guides.json
+  description: Guides and recommended sites on the Live in Korea page.
+  fields:
+  - name: guides
+    label: Guides
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: area
+      label: Area
+      type: select
+      required: true
+      options:
+        values:
+        - korean
+        - visa
+        - job
+        - campus
+        - living
+      description: korean = Korean Language Class, living = Living in Korea
+    - *id006
+    - name: minutes
+      label: Minutes to read
+      type: number
+    - name: text
+      label: Description
+      type: text
+      required: true
+    - name: tips
+      label: Tips (one per line)
+      type: string
+      list: true
+    - name: url
+      label: Website link (optional)
+      type: string
+    - name: linkLabel
+      label: Link button text (optional)
+      type: string
+      description: e.g. Visit on Facebook
+    - name: href
+      label: 'Or: page on this site (optional)'
+      type: string
+    - name: course
+      label: 'Or: certificate course ID (optional)'
+      type: string
+    - name: form
+      label: Form button (optional)
+      type: select
+      description: Which form from Site settings the button opens.
+      options:
+        values:
+        - ''
+        - prayer
+        - contact
+        - bibleStudy
+        - mentor
+        - community
+        - leadership
+        - events
+        - question
+    - name: recommended
+      label: Show in "Recommended sites"
+      type: boolean
+- name: qa
+  label: 'Live in Korea: Q&A Corner'
+  type: file
+  path: content/qa.json
+  description: Questions and answers.
+  fields:
+  - name: questions
+    label: Questions
+    type: object
+    list: true
+    fields:
+    - name: category
+      label: Category
+      type: select
+      required: true
+      options:
+        values:
+        - Korea
+        - Faith
+        - Education
+        - Work
+        - Daily life
+    - name: q
+      label: Question
+      type: string
+      required: true
+    - name: a
+      label: Answer
+      type: text
+      required: true
+- name: korean-expressions
+  label: 'Live in Korea: Korean expressions'
+  type: file
+  path: content/korean-expressions.json
+  description: The expressions table.
+  fields:
+  - name: expressions
+    label: Expressions
+    type: object
+    list: true
+    fields:
+    - name: ko
+      label: Korean
+      type: string
+      required: true
+    - name: rom
+      label: Pronunciation
+      type: string
+    - name: en
+      label: Meaning
+      type: string
+      required: true
+- name: community-groups
+  label: Community groups
+  type: file
+  path: content/community-groups.json
+  description: Groups on the Community and home pages.
+  fields:
+  - name: groups
+    label: Groups
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: Name
+      type: string
+      required: true
+    - name: when
+      label: When
+      type: string
+    - name: where
+      label: Where
+      type: string
+    - name: lang
+      label: Language
+      type: string
+    - name: text
+      label: Description
+      type: text
+    - name: form
+      label: Form button (optional)
+      type: select
+      description: Which form from Site settings the button opens.
+      options:
+        values:
+        - ''
+        - prayer
+        - contact
+        - bibleStudy
+        - mentor
+        - community
+        - leadership
+        - events
+        - question
+    - *id001
+- name: videos
+  label: 'Media: videos'
+  type: file
+  path: content/videos.json
+  description: Shown on the Media page when the YouTube API isn't set up.
+  fields:
+  - name: videos
+    label: Videos
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: date
+      label: Date
+      type: date
+      options:
+        format: yyyy-MM-dd
+    - name: videoId
+      label: YouTube video ID
+      type: string
+      description: The part after watch?v= in the video link
+    - name: category
+      label: Category
+      type: select
+      options:
+        values:
+        - message
+        - study
+        - testimony
+        - korea
+        - leadership
+    - name: description
+      label: Description
+      type: text
+    - name: thumbnail
+      label: Thumbnail
+      type: image
+    - *id001
+- name: daily-verses
+  label: Verse of the day
+  type: file
+  path: content/daily-verses.json
+  description: One verse shows per day, in order. Use a public-domain translation such as the KJV unless you have permission.
+  fields:
+  - name: version
+    label: Bible version
+    type: string
+    description: e.g. KJV
+  - name: verses
+    label: Verses
+    type: object
+    list: true
+    fields:
+    - name: ref
+      label: Reference
+      type: string
+      required: true
+    - name: text
+      label: Verse text
+      type: text
+      required: true
+- name: digital-ministry
+  label: Digital Ministry
+  type: file
+  path: content/digital-ministry.json
+  description: Topics and downloads on the Digital Ministry page.
+  fields:
+  - name: topics
+    label: Topics
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: ID (unique, no spaces)
+      type: string
+      required: true
+      description: Lowercase letters, numbers and hyphens. Used in links, so don't change it after publishing.
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: summary
+      label: Summary
+      type: text
+    - name: tip
+      label: Tip
+      type: text
+  - name: downloads
+    label: Downloads
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: text
+      label: Description
+      type: string
+    - name: file
+      label: File
+      type: file
+- name: ai-knowledge
+  label: 'AI assistant: knowledge'
+  type: file
+  path: content/ai-knowledge.json
+  description: Questions and the answers DHL AI should give. In demo mode, a matching answer is shown word for word. With
+    the live AI, these are sent as DHL-approved answers to base replies on.
+  fields:
+  - name: entries
+    label: Answers
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Example question
+      type: string
+      required: true
+      description: Write it the way a visitor would ask, e.g. What is repentance?
+    - name: keywords
+      label: Keywords (one per line)
+      type: string
+      list: true
+      description: Words and short phrases that should find this answer, e.g. repent, repentance, turn from sin
+    - name: answer
+      label: Answer
+      type: text
+      required: true
+      description: Blank line = new paragraph. **text** = bold. For Pastor Park's teaching, write a short summary in your
+        own words; don't copy long passages from his books (they're copyrighted).
+    - name: sourceType
+      label: Source type
+      type: select
+      required: true
+      description: dhl = a DHL answer; bible = a Bible study note; park = Pastor Ock Soo Park's teaching (only shown when
+        someone asks about Pastor Park, always labelled as his teaching)
+      options:
+        values:
+        - dhl
+        - bible
+        - park
+    - name: source
+      label: Source title
+      type: string
+      description: e.g. DHL Gospel Class, or the book title for Pastor Park's teaching
+    - name: link
+      label: Link for more (optional)
+      type: string
+      description: A page on this site, e.g. gospel.html, or an https:// link
+    - name: refs
+      label: Bible references (one per line)
+      type: string
+      list: true
+    - name: needsMentor
+      label: Also suggest talking to a mentor
+      type: boolean
+    - name: enabled
+      label: Use this answer
+      type: boolean
+      description: Untick to hide an answer without deleting it
+- name: site-settings
+  label: Site settings
+  type: file
+  path: content/site-settings.json
+  description: Contact details, forms and social links. An empty link hides its button.
+  fields:
+  - name: email
+    label: Email address
+    type: string
+  - name: location
+    label: Location
+    type: string
+  - name: forms
+    label: Forms (Google Forms links)
+    type: object
+    fields:
+    - name: prayer
+      label: prayer
+      type: string
+    - name: contact
+      label: contact
+      type: string
+    - name: bibleStudy
+      label: bibleStudy
+      type: string
+    - name: mentor
+      label: mentor
+      type: string
+    - name: community
+      label: community
+      type: string
+    - name: leadership
+      label: leadership
+      type: string
+    - name: events
+      label: events
+      type: string
+    - name: question
+      label: question
+      type: string
+  - name: social
+    label: Social and community links
+    type: object
+    fields:
+    - name: facebook
+      label: facebook
+      type: string
+    - name: facebookGroup
+      label: facebookGroup
+      type: string
+    - name: messenger
+      label: messenger
+      type: string
+    - name: kakaoOpenChat
+      label: kakaoOpenChat
+      type: string
+    - name: whatsapp
+      label: whatsapp
+      type: string
+    - name: instagram
+      label: instagram
+      type: string
+    - name: tiktok
+      label: tiktok
+      type: string
+    - name: youtube
+      label: youtube
+      type: string

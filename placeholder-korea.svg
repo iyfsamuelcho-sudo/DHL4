@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs><radialGradient id="g" cx="70%" cy="30%" r="80%"><stop offset="0" stop-color="#0f7c75" stop-opacity=".35"/><stop offset="1" stop-color="#0d2440" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="800" fill="#163a63"/><rect width="1200" height="800" fill="url(#g)"/>
+  <path d="M-20 560 L200 360 L330 470 L500 260 L700 500 L840 390 L1220 600" fill="none" stroke="#7fe0d4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>  <path d="M-20 800 V620 H120 V520 H200 V600 H300 V470 H380 V600 H480 V540 H560 V600 H700 V500 H760 V430 H790 V500 H860 V600 H980 V530 H1080 V600 H1220 V800 Z" fill="#0d2440" opacity=".9"/>
+  <path d="M775 430 V330" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>  <circle cx="775" cy="320" r="14" fill="#fff"/>
+  <path d="M-20 700 H1220" fill="none" stroke="#0f7c75" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>  <circle cx="250" cy="700" r="22" fill="#fff" stroke="#f5a524" stroke-width="8"/>  <circle cx="650" cy="700" r="22" fill="#fff" stroke="#f5a524" stroke-width="8"/>  <circle cx="1000" cy="700" r="22" fill="#fff" stroke="#f5a524" stroke-width="8"/>
+</svg>

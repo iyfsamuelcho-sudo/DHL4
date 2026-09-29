@@ -100,6 +100,7 @@ The design uses a **Seoul-metro route map** as its visual language. Foreigners i
 │   ├── certificate-courses.json, academy.json, digital-ministry.json
 │   ├── korea-guides.json, qa.json, korean-expressions.json
 │   ├── daily-verses.json   Verse of the day
+│   ├── ai-knowledge.json   Answers for the DHL AI assistant
 │   └── site-settings.json  Email, forms and social links
 ├── .pages.yml              Pages CMS setup: the edit forms for content/
 │
@@ -284,6 +285,15 @@ In **demo mode** (`AI_CONFIG.enabled: false`, the default), **no AI is used**. T
 2. searches the DHL content already on the site (topics, lessons, studies, Life in Korea resources and the `assistantFaq` list in `content.js`),
 3. shows the best-matching passage **word for word**, with its sources and Bible references,
 4. recommends a DHL mentor for theological questions, and whenever nothing matches.
+
+**Writing the assistant's answers.** In Pages CMS, open **AI assistant: knowledge** (`content/ai-knowledge.json`) and add entries. Each has an example question, keywords, the answer, a source type, a source title, and optional Bible references and link. Your entries are checked before the site's general study notes, so when a visitor's question matches, your answer is shown word for word. Untick **Use this answer** to hide an entry without deleting it.
+
+Source types keep the sources separate, as the DHL AI rules require:
+- **dhl:** a DHL answer, for practical or general questions.
+- **bible:** a Bible study note. Shown as "Bible study note: *source*".
+- **park:** Pastor Ock Soo Park's teaching. Used only when someone asks about Pastor Park, and always shown as "Pastor Ock Soo Park's teaching (from *book*)" with a note that it's his explanation, not a quotation from the Bible. Write short summaries in your own words, not long passages from his books, which are copyrighted.
+
+The live AI (section 13) receives the same entries as DHL-approved answers.
 
 Every demo answer is labelled as a DHL study note, not an AI answer. This honestly demonstrates the retrieval half of RAG.
 
@@ -574,6 +584,7 @@ No server, database or secret keys are needed. You sign in with GitHub, and only
 - **Add something:** open the section and click **Add an entry**. Lists inside items, such as Bible references, tips, quiz options and lessons, have their own add buttons.
 - **Remove something:** use the item's remove (trash) button, then **Save**.
 - **Reorder:** drag items in a list.
+- **AI answers:** open *AI assistant: knowledge* to add questions and the answers DHL AI should give (section 12).
 - **Photos:** in an image field, upload a photo. It's saved in `assets/images/`. Use landscape photos under about 400 KB.
 - **Wait 1–2 minutes** after saving, then refresh the website.
 

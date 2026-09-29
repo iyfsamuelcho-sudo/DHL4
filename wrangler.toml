@@ -1,0 +1,25 @@
+# DHL News Admin Worker settings.
+# SECRETS ARE NOT STORED HERE. Set them with:
+#   npx wrangler secret put GITHUB_TOKEN
+#   npx wrangler secret put GITHUB_CLIENT_SECRET
+#   npx wrangler secret put SESSION_SECRET
+
+name = "dhl-news-admin"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Your repository: https://github.com/GITHUB_OWNER/GITHUB_REPO
+GITHUB_OWNER = "your-github-username"
+GITHUB_REPO = "your-repository"
+GITHUB_BRANCH = "main"
+POSTS_PATH = "content/posts.json"
+
+# From your GitHub OAuth App (the Client ID is not secret)
+GITHUB_CLIENT_ID = "your-oauth-app-client-id"
+
+# The full address of admin.html on your published site
+ADMIN_PAGE_URL = "https://your-github-username.github.io/your-repository/admin.html"
+
+# GitHub usernames allowed to publish, comma-separated
+ADMIN_USERS = "your-github-username"

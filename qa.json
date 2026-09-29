@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "category": "Korea",
+      "q": "Where can I get help in my own language?",
+      "a": "Call the Immigration Contact Center at 1345 or the Danuri helpline at 1577-1366; both offer multiple languages. In Seoul, the Seoul Global Center also offers counseling."
+    },
+    {
+      "category": "Korea",
+      "q": "What number do I call in an emergency?",
+      "a": "Call 119 for fire and ambulance and 112 for police. For suicide prevention counseling, call 109."
+    },
+    {
+      "category": "Korea",
+      "q": "Do I need a residence card?",
+      "a": "If you will stay more than 90 days, you must register within 90 days of entering Korea. See the Visa guides on this page and check Hi Korea for your situation."
+    },
+    {
+      "category": "Work",
+      "q": "My employer hasn't paid my wages. What can I do?",
+      "a": "Keep a record of your hours and payments, and call the Ministry of Employment and Labor counseling center at 1350. A DHL mentor can listen and help you find the right office. DHL can't give legal advice."
+    },
+    {
+      "category": "Work",
+      "q": "Do I need a written contract?",
+      "a": "Yes, ask for one before you start work, keep a copy, and make sure you understand it. Ask a Korean-speaking friend or mentor to read it with you."
+    },
+    {
+      "category": "Education",
+      "q": "How can I start learning Korean for free?",
+      "a": "Try the KIIP program through Socinet, King Sejong Institute's online courses, and DHL's Survival Korean certificate course."
+    },
+    {
+      "category": "Education",
+      "q": "What is TOPIK, and do I need it?",
+      "a": "TOPIK is the official Korean proficiency test. Universities, employers and some visa types may ask for a TOPIK level, so check the requirements that apply to you."
+    },
+    {
+      "category": "Faith",
+      "q": "I'm not a Christian. Can I still join DHL?",
+      "a": "Yes. Everyone is welcome, whatever your background. You can join the community, get practical help, and explore the Bible whenever you're ready."
+    },
+    {
+      "category": "Faith",
+      "q": "Where should I start reading the Bible?",
+      "a": "Many people start with the Gospel of John or Mark. DHL's Gospel Class also walks you through the main message step by step."
+    },
+    {
+      "category": "Faith",
+      "q": "Can I study the Bible in Tagalog or Korean?",
+      "a": "Yes. Some DHL groups meet in English and Tagalog, and Bible links on this site can open in other translations. Ask to join a Bible study and tell us your language."
+    },
+    {
+      "category": "Daily life",
+      "q": "Which map app works best in Korea?",
+      "a": "Naver Map and KakaoMap give the most reliable directions for walking, buses and the subway."
+    },
+    {
+      "category": "Daily life",
+      "q": "Where do I see a doctor?",
+      "a": "For everyday illness, visit a local clinic (의원) and bring your residence card. For emergencies, call 119."
+    },
+    {
+      "category": "Daily life",
+      "q": "How do I throw away trash?",
+      "a": "Use volume-based trash bags (종량제 봉투) from a convenience store, and separate food waste and recyclables. Rules differ by district."
+    }
+  ]
+}
