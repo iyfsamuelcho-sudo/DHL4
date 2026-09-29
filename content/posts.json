@@ -1,28 +1,44 @@
 {
   "posts": [
     {
-      "type": "announcement",
       "title": "When Crisis Comes: Danger or Opportunity?",
       "date": "2026-09-29",
-      "description": "A crisis consists of two elements: danger and opportunity. Saul looked at Goliath and saw a threat, but David looked through the eyes of faith and saw an opportunity.",
-      "url": "",
-      "image": "assets/images/news/2026-09-29-when-crisis-comes.jpg",
+      "type": "announcement",
       "category": "Gospel & Bible",
+      "description": "A crisis consists of two elements: danger and opportunity. Saul looked at Goliath and saw a threat, but David looked through the eyes of faith and saw an opportunity.",
+      "content": "A crisis consists of two elements: danger and opportunity. Thus, when we face a crisis, our future is determined by what we look at.\n\nSaul looked at Goliath and saw a threat, but David looked through the eyes of faith and saw an opportunity.\n\nEverything that comes our way is an opportunity from God to establish and strengthen us.\n\nAs it is written in Romans 8:28:\n\n> \"And we know that all things work together for good to those who love God, to those who are the called according to His purpose.\"\n\nWhen crisis strikes today, will you focus on the danger like Saul, or look through the eyes of faith like David to seize the opportunity God is giving you?",
       "id": "2026-09-29-when-crisis-comes-danger-or-opportunity",
+      "image": "assets/images/news/2026-09-29-when-crisis-comes.jpg",
       "author": "@Samuel Cho",
       "scripture": "Romans 8:28",
       "scriptureVersion": "NKJV",
-      "content": "A crisis consists of two elements: danger and opportunity. Thus, when we face a crisis, our future is determined by what we look at.\n\nSaul looked at Goliath and saw a threat, but David looked through the eyes of faith and saw an opportunity.\n\nEverything that comes our way is an opportunity from God to establish and strengthen us.\n\nAs it is written in Romans 8:28:\n\n> \"And we know that all things work together for good to those who love God, to those who are the called according to His purpose.\"\n\nWhen crisis strikes today, will you focus on the danger like Saul, or look through the eyes of faith like David to seize the opportunity God is giving you?"
+      "pinned": false,
+      "sample": false
     },
     {
-      "pinned": true,
-      "type": "announcement",
       "title": "Welcome to DHL",
       "date": "2026-09-27",
+      "type": "announcement",
+      "category": "From connection to commission",
       "description": "DHL is a community for foreigners in Korea, especially Filipinos. Find practical help and real friends, explore the Gospel, and grow into a leader who helps others grow.",
-      "url": "about.html",
       "image": "assets/images/community.jpg",
-      "category": "From connection to commission"
+      "url": "about.html",
+      "pinned": true,
+      "sample": false
+    },
+    {
+      "title": "Hello testing",
+      "date": "2026-09-29",
+      "type": "facebook",
+      "category": "Gospel and bible",
+      "description": "wow",
+      "content": "none",
+      "id": "none",
+      "image": "assets/images/ChatGPT Image Sep 22, 2026, 10_40_11 PM.png",
+      "url": "https://www.facebook.com/photo?fbid=122261213684112039&set=a.122205030278112039",
+      "author": "samuel cho",
+      "pinned": false,
+      "sample": false
     }
   ]
 }
