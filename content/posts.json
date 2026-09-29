@@ -25,20 +25,6 @@
       "url": "about.html",
       "pinned": true,
       "sample": false
-    },
-    {
-      "title": "Hello testing",
-      "date": "2026-09-29",
-      "type": "facebook",
-      "category": "Gospel and bible",
-      "description": "wow",
-      "content": "none",
-      "id": "none",
-      "image": "assets/images/ChatGPT Image Sep 22, 2026, 10_40_11 PM.png",
-      "url": "https://www.facebook.com/photo?fbid=122261213684112039&set=a.122205030278112039",
-      "author": "samuel cho",
-      "pinned": false,
-      "sample": false
     }
   ]
 }
